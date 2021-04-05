@@ -1,0 +1,12 @@
+{
+  "Name": "Wizard Spouse Room",
+  "Author": "foggywizard and sivolobwho",
+  "Version": "1.2.0",
+  "Description": "Spouse Rooms for Looking for Love",
+  "UniqueID": "foggy.LfLSpouseRooms",
+  "UpdateKeys": ["Nexus:3073"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

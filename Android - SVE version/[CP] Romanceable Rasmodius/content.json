@@ -1,0 +1,1085 @@
+{
+	"Format": "1.4",
+
+	"ConfigSchema": {
+		"Override Generic Dialogue": {
+			"AllowValues": "true, false"
+            },
+      
+      "Sprite": {
+         "AllowValues": "vanilla, new, custom"
+            },
+      
+      "Wizard Babies": {
+         "AllowValues": "true, false"
+            },
+    }, 
+
+
+	"Changes": [	
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Fields": {
+			    "Wizard": {
+					5: "datable",
+				},
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+					"Wizard0": "How can I express what it means to me to join hands with you... @...",
+					"Wizard1": "I will gladly stand by your side forever.",
+			},
+		},
+
+		{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Wizard",
+            "Entries": {
+			"Mon": null,
+        		"Tue": null,
+        		"Tue4": null,
+        		"Wed": null,
+        		"Thu": null,
+        		"Thu10": null,
+        		"Fri": null,
+        		"Fri6": null,
+        		"Sat": null,
+        		"Sat2": null,
+        		"Sun": null,
+			"Introduction": "Greetings, @. We meet at last.#$b#I foresaw your arrival in the crepuscular shapes the forest traced upon my doorstep.#$b#Ever since, I have been waiting to greet you. The forest has plans for you and I.#$b#Plans that I am keen to uncover.",
+			"MovieInvitation": "A movie...? This is what they call a 'moving picture', yes? Hm. I... would like to experience this with you. Very much. Yes. I shall appear once you have arrived.", 
+        		"danceRejection": "Dance? With you...? $1#$e#I... wish I could say yes. But I do not know the steps.",
+        		"spring_1": "Spring is here. The year is reborn.#$b#And you and I with it, @. I see a good year ahead.#$e#A very good year, indeed.",
+        		"spring_Mon": "Ever had a berry pie, @?#$b#It is one of the only recipes I know. There's simply no room for recipes with all these spells in my head.#$b#No, my berry pie isn't green. Why would it be green?#$e#Your laughter puzzles me, @. But I do not mind it.",
+        		"spring_Tue": "The forest was talking about you again, today.#$b#What was it saying? Well, let's just say it is  very curious about you. #$e#I'm rather in agreement with it. Please continue to share your mysteries with me, @.",
+        "spring_Wed": "Taking a walk in the forest, @? I should follow you example... #$b#But, there's much work ahead of me foor this day. Greet the forest beings in my stead, if you could.#$e#Have a good day, @. Watch the leaves closely.",
+        "spring_Thu": "Ah, so it was you I sensed approaching. It is good to see you, @.#$b#I see already that this town has been benefiting from your presence. I am grateful. #$e#Walk the runes, @. Enjoy the day.",
+        "spring_Fri": "A riddle? Yes, I suppose you'd expect a wizard in a tower to know a few riddles. #$b#But, I, uh... I'm not good with such things on the spot. Let me think about it. #$e#I shall do my best to stump you, @. You have my word.",
+        "spring_Sat": "The wind smells of honey, today.#$b#Have you tried keeping bees, @? They're remarkable creatures.#$e#I suspect that honey from your beehives would be special indeed... ah, do not let me influence your farming decisions. You know more on that than I.",
+        "spring_Sun": "Yes, I do leave this tower, sometimes. My ability to warp at will does mean we are unlikely to cross paths, however.#$b#But yes. I do'get out'. Though I do avoid crowds...#$e#I do my best to always be in residence when I am needed. You will always find me here when you need me, @.#$b#This I promise. The forest would never let me hear the end of it, otheriwse!",
+        "spring_Mon2": "Spring is a time of renewed energy. The powers are not at their full strength yet, and everything is still returning to life.#$b#It is a time to set a focus, for the rest of the year is decided by the Spring.#$e#Have a day to remember, @.",
+        "spring_Tue2": "To some, the powers at my disposal must be perplexing. Yet, I am not the only one who can use such energies.#$b#Anyone with the will to believe and follow their path can tap a source of energy far greater than seen here, but most do not wish to see it.#$e#Embrace the mysteries of the day, @.",
+        "spring_Wed2": "Someday I hope to record all my findings into a book, bound with leaves of the Eternity Tree. Then all will be saved forever.#$b#Until then, I could lose it all, and what a terrible fate that would be.#$e#Have a good day, @. Learn something new.",
+        "spring_Thu2": "I've learned many things about the powers of spring, yet I do not understand all of it.#$b#The mysteries are always changing. To truly know would mean an end to innocence.#$e#Seek the energies, @. Enjoy the day.",
+        "spring_Fri2": "Where does the energy come from? Where does it go? I have studied long, and have read many theories, but nothing is concrete.#$b#Like a butterfly, once caught, the answers live only for a short while.#$e#Focus your mind today, @, and be at peace.",
+        "spring_Sat2": "If I were to write a book, only those who had the will and a yearning for knowledge would be able to read it.#$b#It is unfortunate, but that is the nature of the powers.#$e#Seek knowledge, seek answers. Have a good one.",
+        "spring_Sun2": "Are there others like me? I've often wondered. Someday I will know for sure.#$b#It is a secret to everybody.#$e#Be enchanted, @. Be at peace.",
+        "spring_Mon4": "You are now able to use the Shrine of Illusion down below. Use it wisely.#$b#Its power is great, for good and for evil.#$e#Have a day to remember, @.",
+        "spring_Tue4": "I got the Shrine of Illusion from a man who wanted it gone. He reached out to me, begging me to take it.#$b#Getting it here was difficult, but he was glad to be rid of it. It had taken more than just his face.#$e#Embrace the mysteries of the day, @.",
+        "spring_Wed4": "The Shrine of Illusion allows one to change their appearance on the outside, but not the inside.#$b#An evil being who uses the shrine cannot free itself from what it has done, you see.#$e#Have a good day, @. Learn something new.",
+        "spring_Thu4": "Should the Shrine of Illusion ever again fall into the hands of evil, I will have to get it back. It is my duty now.#$b#It is a terrible artifact from a forgotten age, and I am its keeper.#$e#Seek the energies, @. Enjoy the day.",
+        "spring_Fri4": "I have never used the Shrine of Illusion, but I do not fault those that do. It is important to project who you truly are.#$b#If you do not, what you are will eat itself out from the inside, and that is not pleasant.#$e#Focus your mind today, @, and be at peace.",
+        "spring_Sat4": "Once, an animal went into the depths of my tower and used the Shrine of Illusion. It transformed into what it truly wanted to be seen as.#$b#Out walked a being of nightmare, and I had to find a place for it to thrive. It was difficult to do, but I succeeded.#$b#That dog-turned-nightmare? Mayor Lewis.$1#$b#I'm kidding. My joke powers wane.#$e#Seek knowledge, seek answers. Have a good one.",
+        "spring_Sun4": "The Shrine of Illusion needs gold to function, an offering before its powers activate.#$b#Such is it's power.",
+        "spring_Mon6": "I met my ex-wife in better times. She was the most beautiful person I'd ever seen, and we were quickly smitten with one another.#$b#Funny how time changes. The true mystery is why it happens so fast.#$e#Have a day to remember, @.",
+        "spring_Tue6": "It's hard to remember the old days with my ex-wife. We were happy, very happy.#$b#Things just fell apart. In the end, we broke up, and it wasn't pretty.#$b#Many people still remember her flying around, cursing all she saw. I still feel responsible.#$e#Embrace the mysteries of the day, @.",
+        "spring_Wed6": "We had similar interests, my ex-wife and I. We would spend hours in each other's arms, reading forbidden books.#$b#In the end, what we couldn't decide on was how to live. We were very different people.#$b#If only things could have been different.#$e#Have a good day, @. Learn something new.",
+        "spring_Thu6": "My ex-wife still lives nearby, and appears like a green witch of legend. However, it's just an illusion.#$b#I still see her for as she truly is. It breaks my heart.#$e#Seek the energies, @. Enjoy the day.",
+        "spring_Fri6": "All the powers in the universe are not enough to fix a broken heart. It can be mended, but once shattered, shall it remain.#$b#Someday I will find a way to fix my own, but even that may take centuries.#$b#Sorry to bore you with this old man's woes.#$e#Focus your mind today, @, and be at peace.",
+        "spring_Sat6": "I did some things that I regret when I was married. I let things lapse, I avoided responsibility, and it cost me.#$b#If you become committed to any cause, big or small, do not run from it. It would have been better if you hadn't got involved.#$e#Seek knowledge, seek answers. Have a good one.",
+        "spring_Sun6": "Joy is a mysterious power. Fragile in its most pure state, when it does appear it can resonate through the ages.#$b#Yet, that same joy can become corrupted over time. It must be protected, at all cost.#$e#Be enchanted, @. Be at peace.",
+        "spring_Mon8": "@. Have you traveled? I yearn to return to the days of my youth, so very long ago.#$b#I was young and full of passion. I learned many things that I still remember strongly.#$b#Youth is fleeting, hold onto it while you can.#$e#Have a day to remember, @.",
+        "spring_Tue8": "I've traveled all over, looking for secrets of the energies. I've had grand adventures, and suffered terrible tragedies.#$b#When you have a drive and a passion, that is an energy that cannot be destroyed.#$e#Embrace the mysteries of the day, @.",
+        "spring_Wed8": "I will tell you of one place that I have been to. While lost in a forest, I found a cabin and took shelter in it.#$b#It was larger than it appeared on the inside, and it seemed to go on for miles.#$b#At the end, I found a bed, and in it, a child. Its eyes were open, and it rose to stare at me.#$b#It pointed at me, and I awoke in my bed at the inn. Very strange, and I still wonder about it.#$e#Have a good day, @. Learn something new.",
+        "spring_Thu8": "Walking the libraries of the world, even if you cannot understand the language, is an inspiring feeling. The energy one gains by being near books is great.#$b#I used to spend hours in them, absorbing it all. Many are now gone, and it is a shame.#$e#Seek the energies, @. Enjoy the day.",
+        "spring_Fri8": "Where I come from the libraries would be brimming with life. Every page a portal, recorded down by scribes long past.#$b#Some were full of secrets no one should know, and I took to them immediately. I regret it still.#$e#Focus your mind today, @, and be at peace.",
+        "spring_Sat8": "The world I once knew is long gone. I hold onto fragments of it, but I am old. Someday, it will all be forgotten.#$b#I'd like to tell you about it, @, but no energy in the universe would allow me to discuss it. As is the way.#$e#Seek knowledge, seek answers. Have a good one.",
+        "spring_Sun8": "I wish I could go back to the days of my youth for one more day. Go into the shop I always put off, talk to the librarians, learn even more.#$b#Those days are long gone, and all I have left of them is a shadow. Such is life.#$e#Be enchanted, @. Be at peace.",
+        "spring_Mon10": "Despite the focus I have on my studies, companionship, too, is importantto me. It is a shame that it isn't so easy for people like me.#$b#People's faces go blank when I speak.#$e#But you... you always look at me with such thoughtful eyes.",
+        "spring_Tue10": "I am glad to see you, @. I had predicted we would become friends, but I had no idea how far it would go.#$b#There are many mysteries in this world, and I am glad you chose me as one of yours.#$e#I count myself to be very lucky indeed.",
+        "spring_Wed10": "Many people are scared of me. The unknown causes them to tremble, and my association with it frightens them.#$b#You have continued to show you don't mind the mysterious. You embrace it, and take time out of your day to see me.#$b#Thank you, @. I thought I would be alone forever.#$e#You are a special person, indeed.",
+        "spring_Thu10": "The energies, at their core, are chaotic. Ever changing, they are denser than air yet more elusive than wind.#$b#In the end, many people believed it was not worth trying to solve the mystery, yet here I remain.#$e#Someday, @, I will truly understand.",
+        "spring_Fri10": "I feel renewed this year, not just because spring is the time for it, but because of my relationship with you, @.#$b#You have reminded me that I am still human. To focus on being human is a mystery itself that I almost forgot about.#$e#Thank you, @.",
+        "spring_Sat10": "The air is electric, I feel this year will be a special one. Let us do our best to achieve our dreams, @.#$e#Do not give up. I will be with you.",
+        "spring_Sun10": "The greatest energies are the ones we allow ourselves to find. Everything else is false.#$b#Be true to what moves you, and you will be energized the rest of your life.#$e#That is my hope for you, @. Live forever!",
+        "summer_1": "Summer has come at last. The energies are at their most powerful. I'll get a lot of work done this season.#$b#Stay cool, @, and do not let the sun curse you.#$e#Maybe I'll go swimming this time...",
+        "summer_Mon": "The many eared crop, its leaves capture the sun's energy itself, painting it all over.#$b#Amazing in its uses, it's true desire is to feed people. An inspiring crop indeed.#$e#Have a day to remember, @.",
+        "summer_Tue": "The bush with eyes of blue, it can see many things. Its power is in healing, and as such, is quite potent indeed.#$b#People crave them, but they are hard to find most of the year, and only good fresh. A crop whose quality is fleeting, very mysterious.#$e#Embrace the mysteries of the day, @.",
+        "summer_Wed": "Melon of the Earth, Melon of the Sky, Melon of the People, Melon of the Eye.#$b#Melon of the Mother, Melon of the Father, Melon of the Son, Melon of the Daughter#$b#That concludes my shopping list.$1#$e##$e#Have a good day, @. Learn something new.",
+        "summer_Thu": "It is now that the crops that can make energy are born, and it is up to people like yourself to harness it.#$b#There are two crops available, and one has its seeds. To utilize them is pure alchemy.#$e#Seek the energies, @. Enjoy the day.",
+        "summer_Fri": "A powerful plant, it can induce dreams in those who drink it. Its powers many, its flavors are endless.#$b#Yet, it has brought ruin to civilizations, and is no friend of men or women. What is its true purpose?#$e#Focus your mind today, @, and be at peace.",
+        "summer_Sat": "The energy of the sun is too much for some, and the only solution is to stay indoors. I hide within my tower for this purpose.#$b#Yet, the energies are so powerful during time of year that I do not even need sleep. Isn't it wondrous?#$e#Seek knowledge, seek answers. Have a good one.",
+        "summer_Sun": "The red crop, vegetable to some and fruit to others, has no keeper. It is delicious raw, cooked, or squeezed.#$b#Many people like it, and some can't live without it. No home should lack it's prescence.#$e#Be enchanted, @. Be at peace.",
+        "summer_Mon2": "Long ago, there was a language that allowed people to converse with the spirits of the sun. They held many festivals during summer.#$b#That culture is long gone, and the language of the sun lost to time. If only I could find a way...#$e#Have a day to remember, @.",
+        "summer_Tue2": "The energy during summer allows for easier methods of the mysterious. It is very addicting trying out new theories after two seasons of wondering.#$b#Can you feel the energies? Do not worry if you cannot.#$e#Embrace the mysteries of the day, @.",
+        "summer_Wed2": "It was said that only the most powerful could learn and write the Sun Language, for it could burn those who wrote it.#$b#It is rumored that there was a rival tribe that wrote in a special moon rune, but there has been no proof of such a language ever existing.#$e#Have a good day, @. Learn something new.",
+        "summer_Thu2": "One of my experiments went well today. I was able to glance at the future for a moment.#$b#All the voices, all of the emotions. It is going to be interesting.#$e#Seek the energies, @. Enjoy the day.",
+        "summer_Fri2": "I am very fortunate to have found just one letter of the Sun Language, which I keep hidden away. It burns crimson, constantly and forever.#$b#It is the letter for 'hope.' Strange, isn't it? Someday I might be able to show you, but not now.#$e#Focus your mind today, @, and be at peace.",
+        "summer_Sat2": "Tomorrow I will be focusing my energy, and doing an experiment that could go very well, or very badly. If you see me, I will be in a trance.#$b#If it works, then you'll wake up and everything will be fine. If it doesn't, well, I did try.#$e#Seek knowledge, seek answers. Have a good one.",
+        "summer_Sun2": "Hakata Monno ba, hakata bal bala. Shamlao 'tswal, catakan grana.#$e#Must...focus...must not...give in...",
+        "summer_Mon4": "If you've yet to use the Shrine of Illusion, then I must tell you to be cautious. Its history is vast, and much of it, bloody.#$b#Use it with wisdom and all shall be fine.#$e#Have a day to remember, @.",
+        "summer_Tue4": "The previous owner of the Shrine of Illusion was a vain man, trying to find the perfect look for himself. He was wealthy, and won the shrine in a contest.#$b#He invested all his wealth into it, trying to find the perfect look, but he was never happy.#$b#He was trying to fix what was on the outside and not the inside, and it consumed him. Strange, isn't it?#$e#Embrace the mysteries of the day, @.",
+        "summer_Wed4": "I found a warning in an old book regarding the Shrine of Illusion. It went as follows:#$b#'Only those who wish to find their true self are permitted to use the Shrine. Those who wish to change their appearance to trick others shall be cursed.'#$b#I've spent a long time trying to find what the curse is, but only have theories.#$e#Have a good day, @. Learn something new.",
+        "summer_Thu4": "My guesses for the Curse of the Shrine of Illusion are that if you use it for your own gain, and not to reveal your true self, your time on this mortal plane is cut short.#$b#Many have tried to use it as such, and all were destroyed. But this is just a theory of mine, nothing concrete about it.#$e#Seek the energies, @. Enjoy the day.",
+        "summer_Fri4": "It is curious to me why the Shrine demands gold for its use. If it was a construct of good, it shouldn't matter.#$b#Yet, it will not work without a gold offering. Such a curious thing.#$e#Focus your mind today, @, and be at peace.",
+        "summer_Sat4": "There is no proof of any kind that the Shrine of Illusion is more powerful during summer or not. All other sorts of mysterious objects are, but it appears indifferent.#$e#Seek knowledge, seek answers. Have a good one.",
+        "summer_Sun4": "I believe you to be a good person, @, so the Shrine should be kind to you. If I misjudged you, then...#$b#You might still be fine. I'll have to see.#$e#Be enchanted, @. Be at peace.",
+        "summer_Mon6": "My ex-wife was my companion. We did many things together, and during summer, when the energies are so potent, it was truly wonderful.#$b#Now, I am alone in this tower. It is not the same, and probably will never be again.#$e#Have a day to remember, @.",
+        "summer_Tue6": "I have the ability to create an image of any being and converse with it. However, they bore me, and I bore them.#$b#They claim I need to get over my ex-wife, but it's easier said than done.#$e#Embrace the mysteries of the day, @.",
+        "summer_Wed6": "To be lucky in love is a special sort of energy that not all beings possess. It strikes randomly, and only once.#$b#I have been hoping for another chance for many years, but to no avail.#$e#Have a good day, @. Learn something new.",
+        "summer_Thu6": "I once conjured a being that was a talking cat. It would go on and on about facts from around the world, but it was only things I knew.#$b#I couldn't bring myself to send it away, so I gave it to a friend. I wonder where it is now.#$e#Seek the energies, @. Enjoy the day.",
+        "summer_Fri6": "The summer full moon is a special one for me. I proposed to my ex-wife underneath it's power.#$b#It was...enchanting.#$b#That was a very long time ago.#$e#Focus your mind today, @, and be at peace.",
+        "summer_Sat6": "It is a danger power to wonder about how things could have been. It is impossible to know, but it can be a destructive force.#$b#It's better to always to what you feel is right so you have no regrets. Doing what you feel is wrong, but doing it anyway, is madness.#$e#Seek knowledge, seek answers. Have a good one.",
+        "summer_Sun6": "The days are long, @. I am in a slump, but I can feel a time when I will soon rise above it.#$b#I let the powers of the past take over me, and I tell you this, I will break free of them.#$e#Be enchanted, @. Be at peace.",
+        "summer_Mon8": "One of things I did when I was younger was hunt and fight evil beings and creatures. I've encountered them all.#$b#There are beings in is world who still fight wars, the point of which long forgotten, replaced only with hatred of the enemy.#$b#It is a tiring life, and I got out of it.#$e#Have a day to remember, @.",
+        "summer_Tue8": "The problem with monsters is that most of the time they do not know why they do what they are doing.#$b#Some are created, or others are enchanted in some terrible way. Have you seen any carry an object called a 'Strange Bun?'#$b#Beware the Strange Bun, @.#$e#Embrace the mysteries of the day, @.",
+        "summer_Wed8": "There was a war, fought long ago, that almost swallowed the entire world. Unknown to humans, it was fought below the earth.#$b#In the end, neither side won, and the warriors are forgotten. Such is the price they paid for their stupidity.#$e#Have a good day, @. Learn something new.",
+        "summer_Thu8": "In youth, my powers were attuned for fighting, and I could hold my own. It was a heart-pounding time.#$b#Unfortunately, it cost me some years of my life. I have little to show for it other than the scars.#$e#Seek the energies, @. Enjoy the day.",
+        "summer_Fri8": "The mines go deeper than you might imagine, and there are secrets locked away that will probably never be found.#$b#It is my hope that all the horrible things that happened down there stay there, and sometimes I must interfere.#$e#Focus your mind today, @, and be at peace.",
+        "summer_Sat8": "Anger and hatred, they are false energies. They hide the real sources of power, which is understanding and sadness.#$b#It has become cliche, but it's true. I have learned so much, and it still holds true. Find peace before you tear yourself to pieces.#$e#Seek knowledge, seek answers. Have a good one.",
+        "summer_Sun8": "Someday things will be at peace with the beings in the mines, but not anytime soon. Probably not until the world is but a husk, and humans are long gone.#$b#That is how deep their hatred burns. It is a tragedy of the ages.#$e#Be enchanted, @. Be at peace.",
+        "summer_Mon10": "I still marvel that you would ever choose to be with one such as me. I am much too old and jaded for someone so full of life. And yet, here we are.#$e#You are the mystery I will never solve. Be well, @.",
+        "summer_Tue10": "Ignorance is bliss. You've heard that saying before, I'm sure, but it's true. To know too much, it can turn one bitter.#$b#I still find hope in my studies, but some days, it is nearly too much to bear. Thank you for choosing me, @.#$e#You are what holds me to this reality.",
+        "summer_Wed10": "The focus on my life has always been on my studies now. Everything else fell away.#$b#Becoming clse with you, though, has made me realize that maybe I should not be so consumed by the search for knowledge..#$b#There's more to life than reading the books about the lives of the dead.#$b#Now there is you.#$e#I am with you, @. I always will be.",
+        "summer_Thu10": "Using the energies comes at a cost. It's not free. To discuss all the different aspects would take ages.#$b#I'll tell you this though, @. My hair was not originally purple.#$e#That was a long time ago...",
+        "summer_Fri10": "Thank you for spending time with me, @. I was hoping you would come by today.#$b#It's nice to take a break from my experiments and talk with you. How is your farm?#$e#It is my hope you are successful in all your doings.",
+        "summer_Sat10": "One can get so caught up in work that life just falls away. Others retreat to their work because they cannot handle their life.#$b#I'm realizing lately that I've done a lot of things that I wasn't happy with. Forced myself to do what was wrong for what I thought was right.#$b#I hope to someday get forgiveness, @.#$e#Someday.",
+        "summer_Sun10": "There is a special energy in the air today. I can feel it, can you?#$b#It is our energy! It is invigorating. It makes me feel young again.$1#$e#Is that weird? I don't get out much, @.",
+        "fall_1": "Can you feel the changes in the air? I don't just mean in the temperature. The trees, they are giving off a unique energy.#$e#May this fall be an enchanted one.",
+        "fall_Mon": "They who live in the shadows are lost, for their world has moved beyond them. Pity those who have consumed the dark pastry.#$e#Have a day to remember, @.",
+        "fall_Tue": "The creatures who slide on the earth, what is their purpose? Where do they come from?#$b#They are known across the ages and cultures but a source for their being has never been found.#$e#Embrace the mysteries of the day, @.",
+        "fall_Wed": "Have you seen them? The golems that search for their long-dead creators.#$b#They will wander the mines forever, alone, until they run out of energy.#$e#Have a good day, @. Learn something new.",
+        "fall_Thu": "Normal creature or monster? It's hard to tell of the bats that fly in the caves.#$b#Their energy fluctuates with the moon, and they crave the lifeblood of any they can. Beware their haunting gaze.#$e#Seek the energies, @. Enjoy the day.",
+        "fall_Fri": "There are creatures who have adapted to look like stone itself in the mines. It it is not through magical means that they did so, rather through sheer will-power.#$b#Sometimes the only energy you need comes from within.#$e#Focus your mind today, @, and be at peace.",
+        "fall_Sat": "There are spirits, deep in the mines, who have wandered for eternity. Some of the first souls are still trapped in there.#$b#They don't even resemble humans anymore, so twisted has their ethereal image become. Such a tragedy.#$e#Seek knowledge, seek answers. Have a good one.",
+        "fall_Sun": "The mines were once a vast world that was compacted as a result of an ancient war.#$b#Going through the layers is to pass through time itself. Be wary, for it is an unforgiving place.#$b#Those creatures have lost more than their minds.#$e#Be enchanted, @. Be at peace.",
+        "fall_Mon2": "This season is special, for the power to be able to change is heightened. Be it your life, your thinking, or your surroundings, the powers of fall make it possible.#$b#Choose wisely, however, for not all change is positive.#$e#Have a day to remember, @.",
+        "fall_Tue2": "Focus on what matters, and all should work out, unless it doesn't. There are no guarantees in life.#$b#In my studies, I have found this to be true, and it is unfortunate. Nothing is guaranteed to always work.#$e#Embrace the mysteries of the day, @.",
+        "fall_Wed2": "As the trees enter their slumber, they let loose their leaves and their energy. It is this energy that is useful to me.#$b#Once winter comes, all the energies wane. Fall is the finale.#$e#Have a good day, @. Learn something new.",
+        "fall_Thu2": "When all seems lost, it is important to remember that things can still change. For better, or for worse.#$b#It is important not to give up, and to see it through to the end. Easier said than done, sometimes, but I've found it to be true.#$e#Seek the energies, @. Enjoy the day.",
+        "fall_Fri2": "I once saw a person try to keep a tree alive all year long, using powerful energies to do so.#$b#It was horrible: the tree itself wept, and begged to be freed. I had to step in and save the tree.#$b#I still have some of its leaves it gave to me as a gift. They are special to me.#$e#Focus your mind today, @, and be at peace.",
+        "fall_Sat2": "My powers have begun to lose their potency, as it always is in fall. I would take from the trees, but I refuse to do so.#$b#I plan on reading a lot this season. Who knows what I'll find?#$e#Seek knowledge, seek answers. Have a good one.",
+        "fall_Sun2": "You must be having some success on your farm to make it this far, @. How fare your crops?#$b#It is refreshing to see someone push through the difficulty and keep going. Your rewards are ahead of you.#$e#Be enchanted, @. Be at peace.",
+        "fall_Mon4": "Long ago, the Shrine of Illusion was in the hands of a group of assassins. They used its powers to change their appearance and make hits.#$b#A very long time ago, indeed.#$e#Have a day to remember, @.",
+        "fall_Tue4": "The assassins who used the Shrine of Illusion were almost unstoppable in their time. It took a group of people like myself to stop them.#$b#It was a troubling time. An artifact like that should never be used for such gains.#$e#Embrace the mysteries of the day, @.",
+        "fall_Wed4": "With the Shrine of Illusion gone from the ranks of the assassins, their order crumbled. Many searched for it, to reclaim their honor, but alas.#$b#Such is the way of those who used it for evil. It never worked out for them.#$e#Have a good day, @. Learn something new.",
+        "fall_Thu4": "The Shrine of Illusion was lost for a time, and there is no known record for where it went.#$b#Some like to believe it changed its own shape, and hid in the world somewhere, finding peace.#$e#Seek the energies, @. Enjoy the day.",
+        "fall_Fri4": "I feel bad for the assassins who were stuck in the form they chose after losing access to the Shrine of Illusion.#$b#Their burden to bear, wearing a mask stitched onto their face forever. Chilling. Such is its power.#$e#Focus your mind today, @, and be at peace.",
+        "fall_Sat4": "It is impossible to converse with the Shrine of Illusion, yet I feel a living presence within it. I know it can hear me, but yet it remains silent.#$b#It makes a poor companion. It really just wants gold, and to be left alone, so I do the best I can.#$e#Seek knowledge, seek answers. Have a good one.",
+        "fall_Sun4": "The Shrine of Illusion has amazing powers, and I am honored to have it here in my tower.#$b#I think it feels safe, but it's hard to know with such artifacts.#$b#I would like to see someone try and break in here for it, though.$1#$e#Be enchanted, @. Be at peace.",
+        "fall_Mon6": "Here is a warning, @. Be careful during fall, for it is a time of enchantment.#$b#The trees, as they go dormant, let loose their energies and their wishes. It can have some strange effects on people.#$e#Have a day to remember, @.",
+        "fall_Tue6": "If you find yourself obsessed with something you've never been interested before, it can mean you have been enchanted.#$b#Not all enchantments are bad, of course. Some can be quite positive. It is very mysterious.#$e#Embrace the mysteries of the day, @.",
+        "fall_Wed6": "My ex-wife was very strong during fall. Her energies were off the chart.#$b#I will admit, it made me jealous, and that didn't help things.#$b#Sometimes I wonder if it's her enchanting people during fall...#$e#Have a good day, @. Learn something new.",
+        "fall_Thu6": "I need to focus on my experiments before the energies of fall are gone. Winter is a rough time.#$b#If I can make a breakthrough, I'll ride the excitement till spring.#$e#Seek the energies, @. Enjoy the day.",
+        "fall_Fri6": "Many cultures around the world must be aware of the odd energies of fall. So many festivals about monsters are scattered throughout.#$b#It was my favorite time of year as a kid. Now, I must be on my guard.#$e#Focus your mind today, @, and be at peace.",
+        "fall_Sat6": "This is the time of harvest, so how has your farm been? Have you been able to get any special crops?#$b#It is my hope that you do. Only through the hands of hard work can the true energy be found.#$e#Seek knowledge, seek answers. Have a good one.",
+        "fall_Sun6": "The shadow brutes, have you seen them? Though many are monsters, there is one out there who isn't. Have you met him?#$b#I have known of it for a long time. I hope it remains friendly.#$e#Be enchanted, @. Be at peace.",
+        "fall_Mon8": "Enchantments, energies, and experiments. Though their powers are great and can do many things, they can't solve all of life's problems.#$b#They cannot, for example, make someone fall in love with another and have it be an honest relationship. It never ends well.#$e#Have a day to remember, @.",
+        "fall_Tue8": "When I was young, I found myself in a haunted house during a rainstorm and had to stay the night.#$b#I saw many things that night, but the one that sticks with me is the spirit of a child, wandering the halls all night long.#$b#It did not cry, it only looked for its parents. What's worse is, I thought I saw her parents fly around nearby her, but they couldn't see each other.#$e#Embrace the mysteries of the day, @.",
+        "fall_Wed8": "I do not want to become a ghost. It is my hope that when my time comes, I will be able to transcend to some higher plane.#$b#I would be a terrible ghost, as well. I do not enjoy scaring people.#$e#Have a good day, @. Learn something new.",
+        "fall_Thu8": "One of the oddities about my studies are the rules of certain things. For example, I can conjure familiars, obelisks, and more.#$b#Yet, there are no powers at my disposal that can open a sealed jar of pickles or peanut butter. I have searched long and far, yet the rule remains.#$e#Seek the energies, @. Enjoy the day.",
+        "fall_Fri8": "I will be honest with you, @, I did not expect to last this long, and sometimes I wonder what I've done right.#$b#Many people who lead this life give in to temptation, or go too far. It amazes me that I have not.#$e#Focus your mind today, @, and be at peace.",
+        "fall_Sat8": "There is an odd feeling during this time of year for me. Things are at peace, and yet, I am worried.#$b#Maybe I'm just getting paranoid. I need to get out more.#$e#Seek knowledge, seek answers. Have a good one.",
+        "fall_Sun8": "There is a part of me that wishes I could become enchanted, to live life free from knowing the secrets and be at peace. Yet, that would be impossible.#$b#I've studied too much, and learned things I cannot unlearn. It is a benefit, and yet also, a burden.#$e#Be enchanted, @. Be at peace.",
+        "fall_Mon10": "Studying and using the energies can make one very tired, @. All these years of it has brought me to the brink.#$b#Yet it is my curiosity that drives me. I don't have all the answers, and there are still questions I have.#$b#Like you, @. What continues to bring you back to me, time and again?#$e#Perhaps someday I will understand you.#$b#Then again, I enjoy the mystery.",
+        "fall_Tue10": "There have been times when I have had the chance to wield unlimited energy. Many would be tempted by such power.#$b#I am only human. I was lucky to reject them, for it would have destroyed me.#$b#All that glimmers is not always good, @.#$e#Who knows what I would have become? A scary thought.",
+        "fall_Wed10": "Am I a better person than I was before all this? In all my searching, have I been able to find a way to become stronger?#$b#I have answers to many mysteries, but they haven't changed me. They are only answers. Have I done all I can?#$e#I have thought about these things for a long time. My own mystery.",
+        "fall_Thu10": "Words can't express how grateful I am for you, @. It is nice to be able to talk with someone about all the aspects of my work.#$e#Among other things.",
+        "fall_Fri10": "I have been focusing my energies lately to find the answer to this question: how is it that when I'm out and about I'm tired, but when I try to sleep, I cannot?#$b#It is a grand mystery, @. Someday I will solve it. First with sheep-counting.#$e#So many sheep...",
+        "fall_Sat10": "Your crops, how have they fared? It is my hope that they are doing well.#$b#You deserve greatness, @. It is my hope you find it, for I believe it is close at hand for you.#$e#If not, then, I have failed you.",
+        "fall_Sun10": "It is difficult to remember what it is to have normal conversations. When conversing with the energies, one must speak a unique and complex language.#$b#To talk human is to ask how another is, and to do that with meaning is hard for me. Luckily, I can practice on you.#$e#What's up, dog? No? Is that not a saying?",
+        "winter_1": "It is a time for peace and study. The snow fall has made me weak, and I will rest.#$e#I hope this is a special winter for you, @.",
+        "winter_Mon": "The snow is beautiful, isn't it? It has special properties that give it an enchanting aura.#$b#I enjoy watching it. It is very calming.#$e#Have a day to remember, @.",
+        "winter_Tue": "During winter, as my power is at its weakest, I enjoy reading books in my collection.#$b#I have so many interesting books, that I wonder if I'll ever get the chance to read them all.#$e#Embrace the mysteries of the day, @.",
+        "winter_Wed": "I've just finished a book recently about the many types of monsters. I had forgotten a few from ages past.#$b#Terrible beasts that would roam the world during winter when they knew they couldn't be stopped. I'm glad they are gone.#$e#Have a good day, @. Learn something new.",
+        "winter_Thu": "The ice is a friend and a foe, isn't it? Friend when you have a hot beverage, foe when you want to plant crops.#$b#Some of my friends specialize in studying ice in all forms, and their studies are double-edged indeed.#$e#Seek the energies, @. Enjoy the day.",
+        "winter_Fri": "There are still some books left in this world that can impart special abilities on those who read them.#$b#Some can teach the reader entire languages if they have all four copies. Imagine that.#$e#Focus your mind today, @, and be at peace.",
+        "winter_Sat": "It is now time to meditate till the spring, when the energies of the region return. To do any of my experiments now would be a mistake.#$b#Luckily, I have many things to read and think about, so not all is lost.#$e#Seek knowledge, seek answers. Have a good one.",
+        "winter_Sun": "Much is still unknown amongst my colleagues about winter. As our energies are at their weakest, it makes it difficult to study.#$b#Someday we may be able to reverse the process and hold onto our energies, but until then, it's books for me.#$e#Be enchanted, @. Be at peace.",
+        "winter_Mon2": "Since there's not much for me to do during this time of year, I tend to watch movies. I recently saw an interesting one...#$b#In it, a carrot fell in love with a grape, but their families were against it. They fought hard to be together, but in the end, were eaten.#$b#It was very sad, but also, quite colorful.#$e#Have a day to remember, @.",
+        "winter_Tue2": "I make an effort to watch movies when I can. However, one of things I hate most are people who chew with their mouth open.#$b#I took an oath to never harm a living soul, and that oath is put to the test when someone chews aloud.#$e#Embrace the mysteries of the day, @.",
+        "winter_Wed2": "What you call 'fantasy movies' I call 'comedy.' It amazes me all the things they get wrong.$1#$b#However, I'd be worried if they got things right. Our secrets aren't for the public, you know.#$e#Have a good day, @. Learn something new.",
+        "winter_Thu2": "When I watch movies, I tend to like the ones that have a lot of special effects.#$b#How they pull it all off will always amaze me. If I didn't do what I do, I'd probably be a special effects artist.#$e#Seek the energies, @. Enjoy the day.",
+        "winter_Fri2": "I recently found a book written in a language I had never seen before. Upon closer inspection, it's for people who code.#$b#This book claims to be from the beginning of the universe...what could it mean?#$e#Focus your mind today, @, and be at peace.",
+        "winter_Sat2": "There is a new movie coming out that I am looking forward to. It is about a wizard with a scar on his arm that has a lot of adventures.#$b#It could be biographical for all I know!$1#$e#Seek knowledge, seek answers. Have a good one.",
+        "winter_Sun2": "They are making a movie about 'Legend of the Prairie King.' It is one of my favorite games, but a movie?#$b#They never do game movies right. What if it turns off potential fans of the game?#$b#How do I know about that game? I have my ways.#$e#Be enchanted, @. Be at peace.",
+        "winter_Mon4": "The Shrine of Illusion has a unique origin, however there are many variations.#$b#Some believe it was born from the sun itself and crashed as a meteor. Others say it has always been.#$b#The truth, once I recall it, is far more interesting.#$e#Have a day to remember, @.",
+        "winter_Tue4": "The being who created the Shrine of Illusion was none-other than a young girl, who wished on a stone to change her appearance to escape her terrible life.#$b#The stone granted her this power, and she turned into a hawk and flew away. When the girl's father found out, he was mad.#$b#He then threw the rock into a lake, to be forgotten forever.#$b#Come back tomorrow, and I'll tell you the rest.#$e#Embrace the mysteries of the day, @.",
+        "winter_Wed4": "The Shrine of Illusion, as a rock, needed to get out of the lake it was thrown in, so it absorbed all the gold at the bottom of the lake until it shown magnificently.#$b#It attracted the girl who had become a hawk, and told her what had happened.#$b#To get revenge, the shrine turned the girl into a bear, and she scared her father.#$b#I'll tell you more tomorrow.#$e#Have a good day, @. Learn something new.",
+        "winter_Thu4": "The Father, realizing what he'd done, pulled the Shrine out of the Lake, and begged for forgiveness. The girl flew away, but the Shrine demanded it taken to the king.#$b#Once at the king, the story stops. The kingdom, the king, the girl, what happened to them is lost to history.#$b#Bit anti-climactic, but such is the way with stories of this nature. Why not ask the Shrine yourself?#$e#Seek the energies, @. Enjoy the day.",
+        "winter_Fri4": "I personally believe the Shrine of Illusion has a grand purpose not yet realized. What it could be exactly I'm not sure of, yet I feel it.#$b#Will it ever return to being a humble stone? Is it waiting for the return of the girl-turned-hawk? Many secrets still remain.#$e#Focus your mind today, @, and be at peace.",
+        "winter_Sat4": "The Shrine of Illusion can only change our appearance, and does not turn us into animals, yet it's recorded that it has.#$b#I wonder if I could unlock that ability again? Maybe if I ask with a sweet voice.$1#$e#Seek knowledge, seek answers. Have a good one.",
+        "winter_Sun4": "I've been reading up on legends of old lately, and found a new one that Shrine of Illusion was involved in.#$b#There once was a frog who wished to be human, and it asked the Shrine for such a wish.#$b#The Shrine granted him his desire, but demanded gold. The frog had no gold, so as a human he stole some. The frog was then thrown in jail, and that's where he died.#$b#Brutal, isn't it? I feel bad for the frog.#$e#Be enchanted, @. Be at peace.",
+        "winter_Mon6": "Lately, I have had troubled dreams in which I meet the children I've never had. They ask about me, where I have been, what I have done.#$b#I wake up with a hollow feeling, it's strange. I've always wanted to have children, and yet...#$b#So it goes. I wonder what it all means?#$e#Have a day to remember, @.",
+        "winter_Tue6": "I believe I do have a purpose, a reason to exist, but it's hard to know for sure. My own fate is a mystery to me, even as I probe the universe.#$b#Perspective is a strange thing. Sometimes you can't see what you need to. #$e#Do not mind my rambling. Embrace the mysteries of the day, @.",
+        "winter_Wed6": "In my dreams I've been fighting a version of myself that has only existed in theory.#$b#It is an evil version, where all my desires were realized and driven him mad. He tries to get out, and each night, I stop him.#$b#How much longer will it go on for? It is uncertain.#$e#Have a good day, @. Learn something new.",
+        "winter_Thu6": "My dreams are haunting me into the day. Children that don't exist, my evil side...#$b#Only during Winter are such assaults possible. I'm too weak, @! Seeing you inspires me to keep fighting.#$e#Seek the energies, @. Enjoy the day.",
+        "winter_Fri6": "I have not slept. I refuse to confront my dreams again.#$b#Instead, I've been...trying to...read...books...#$b#...#$e#...",
+        "winter_Sat6": "I am refreshed today, and I've come to terms with my feelings. I may not be a father, but I can still be a good person.#$b#I hope you forgive my oddness of late, @. You have seen me in a moment of weakness.#$e#Seek knowledge, seek answers. Have a good one.",
+        "winter_Sun6": "Today I will focus on the positive things. I have a new friend in you, @. For that I am thankful.#$b#Here's to spring coming soon! It will be wonderful.#$e#Be enchanted, @. Be at peace.",
+        "winter_Mon8": "I will now tell you why I went down the path to live this life. It is quite the story.#$b#Long ago, when I was young, my mother became very ill.#$b#At first, she was just a little sick, but it got worse. I watched her die in front of my eyes.#$b#It was so horrible. I had heard that there was a chance she could be healed if one could manipulate the energies...#$b#I'll tell you the rest tomorrow.#$e#Have a day to remember, @.",
+        "winter_Tue8": "After traveling far to find a cure for my mother, I found an old woman who understood how to heal. I tried to bring her to my mother, but she, too, was sick.#$b#She didn't last the trip. Then, when I returned to my mother, she had passed.#$b#If I had been able to heal, I could have cured my mother. If I had been able to heal, I could have saved the old woman.#$b#I'll tell you even more tomorrow.#$e#Embrace the mysteries of the day, @.",
+        "winter_Wed8": "After I buried my mother, a man approached me. He had heard about my story, and wanted to teach me in arts. I then began to learn under him, and when he died, I continued his work.#$b#I have sought long and read much to find an answer: how can I cure people using the energies? Someday, I hope, I will know.#$e#Have a good day, @. Learn something new.",
+        "winter_Thu8": "Learning and studying has been my focus for such a long time, I've forgotten how old I actually am.#$b#I still wonder if I will ever succeed, but it's hard to know. What do you think?#$e#Seek the energies, @. Enjoy the day.",
+        "winter_Fri8": "What if one could cure the dead? Or perhaps even stop people from death? Would that be a power for good, or evil?#$b#What if you charged people for immortality? What if only the rich lived forever? Such crazy futures...it's best not to think about it.#$e#Focus your mind today, @, and be at peace.",
+        "winter_Sat8": "I've seen a movie in which a man gets smarter, but his body disappears until he's nothing less than a husk.#$b#The last line was, 'and to think for a moment, I could understand forever.' I know how that character feels.#$e#Seek knowledge, seek answers. Have a good one.",
+        "winter_Sun8": "My mother's grave is long lost, but I still go to where I remember it to be. One of these days, I'll be there with the answer.#$b#Then I won't feel like such a failure.#$e#Be enchanted, @. Be at peace.",
+        "winter_Mon10": "I wish I could reveal my true name to you, @. In truth, I just don't remember it.#$b#Was it Carl? Or Hank? Maybe John?#$b#I think it was a good name. It's hard to know.#$e#Maybe it was @! Imagine that?",
+        "winter_Tue10": "I am always happy to spend time with you, @. It's great seeing you.#$b#How is the farm? Are you happy? Tell me everything.#$e#Every day is a good day when @ shows up.",
+        "winter_Wed10": "It is my hope that our conversations have inspired you in some way, as you have inspired me.#$b#Together we are stronger than being alone, and for that, thank you.#$e#Who knows? If we hadn't met, I'd just talk to myself.",
+        "winter_Thu10": "There is a great feeling in our relationship. I hope someday to be able to be as natural as I am with you with the whole village.#$b#They still fear but, someday, hopefully, they'll give me a chance. You have.#$e#That's made all the difference.",
+        "winter_Fri10": "My name is...I still don't remember.#$b#No, the 'M' doesn't stand for anything. Or, at least, it didn't.#$b#I suppose I could make something up. That's where 'Rasmodius' came from.#$b#Magus. A good, wizardly name, don't you think?#$b#Or should I try mundane?#$b#Mark?#$e#It's no use. If you tire of 'Wizard'... well. Rasmodius is alright, no?",
+        "winter_Sat10": "What a year it has been. I'm glad we have grown so close, @. It would have been very boring without you.#$b#Just me and the Shrine of Illusion, making faces at each other.$1#$e#I still make faces at the Shrine. I'm not sure it appreciates it.",
+        "winter_Sun10": "All in all, remember this, @: the only energy you truly need is your own.#$b#Use that logic, and seize the day. Let nothing stop you!#$e#Unless it's not a good idea, in which case, don't do it.",
+        "event_quest1": "Excellent. You have been chosen for an important task, @. Do not falter.",
+        "event_quest2": "...The spirits in the Community Center? Have you forgotten already? I thought to find you more keen of mind. Well, no matter. Do try not to disappoint them, won't you?",
+        "event_quest3": "Not precisely the confidence-inspiring answer I had hoped for, but no matter.",
+        "event_elemental1": "Hmm... have you indeed? Interesting.",
+        "event_elemental2": "...That would be a slime. I shall not pass your ignorance along to them; for that you may count yourself lucky.",
+        "event_elemental3": "I am hardly surprised.",
+        "event_speakof1": "Is it, indeed? I had no idea. Though it seems impractical to summon you forth whenever we wish to speak about you, I will endeavor to do so in the future. I thank you for teaching my this nicety.",
+        "event_speakof2": "We were.",
+        "event_fate1": "Yes, I sensed you might say that. The spirits have chosen well; I trust you will do great things.",
+        "event_fate2": "Nevertheless, you must. Seldom are we given any choice in such matters. Sooner or later you will have to make a decision... for better or for worse.",
+        "event_fate3": "Mmm. It is a dark energy that swirls around you. I hope only that it will not destroy you. These are dangerous powers you meddle with. Tread carefully.",
+        "event_slang1": "What is the scene? How proceeds your life? What is popping?",
+        "event_slang2": "Indeed! I have had an eye-opening experience with a modern invention called the television.",
+        "event_slang3": "Ah... that was not my intent.$1",
+        "event_skillz1": "...I... see.",
+        "event_skillz2": "Ah ha!$1#$b#Excellent. I knew that comprehension of such simple arts could not be beyond my grasp.",
+        "event_skillz3": "Hmm... perhaps you are right.",
+        "event_moarskillz1": "...It seems I misjudged. Perhaps Linus will be of help...",
+        "event_moarskillz2": "Truly!?$1#$b#Ahem. This pleases me greatly. I look forward to our future encounters.",
+        "event_moarskillz3": "I... see. I should not have asked.",
+        "event_sleep1": "Alas, exhaustion does nothing to aid me.",
+        "event_sleep2": "I have tried that. To no avail.",
+        "event_sleep3": "That... is a nice sentiment. I fear thoughts of where I have come from will only sabotage my efforts, however.",
+        "divorced": "Please. Leave me be. Your eyes...#$b#If only I could forget this sorrow."
+			}
+      },
+
+		{
+            "Action": "Load",
+            "Target": "Characters/Wizard",
+            "FromFile": "assets/Characters/VanillaWizard.png",
+            "When":{
+               "Sprite":"vanilla",
+            },
+      },
+      
+      {
+         "Action": "Load",
+         "Target": "Characters/Wizard",
+         "FromFile": "assets/Characters/NewWizard.png",
+            "When":{
+               "Sprite":"new",
+            },
+      },
+
+      {
+         "Action": "Load",
+         "Target": "Characters/Baby",
+         "FromFile": "assets/Characters/Baby.png",
+         "When":{
+            "Wizard Babies":"true",
+         },
+      },
+
+      {
+         "Action": "Load",
+         "Target": "Characters/Baby_dark",
+         "FromFile": "assets/Characters/Baby_dark.png",
+         "When":{
+            "Wizard Babies":"true",
+         },
+      },
+
+      {
+         "Action": "Load",
+         "Target": "Characters/Toddler",
+         "FromFile": "assets/Characters/Toddler.png",
+         "When":{
+            "Wizard Babies":"true",
+         },
+      },
+
+      {
+         "Action": "Load",
+         "Target": "Characters/Toddler_dark",
+         "FromFile": "assets/Characters/Toddler_dark.png",
+         "When":{
+            "Wizard Babies":"true",
+         },
+      },
+
+      {
+         "Action": "Load",
+         "Target": "Characters/Toddler_girl",
+         "FromFile": "assets/Characters/Toddler_girl.png",
+         "When":{
+            "Wizard Babies":"true",
+         },
+      },
+
+      {
+         "Action": "Load",
+         "Target": "Characters/Toddler_girl_dark",
+         "FromFile": "assets/Characters/Toddler_girl_dark.png",
+         "When":{
+            "Wizard Babies":"true",
+         },
+      },
+		
+		{
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueWizard",
+            "FromFile": "assets/Characters/Dialogue/MarriageDialogueWizard.json"
+        },
+
+        {
+			"Action": "EditData",
+			"Target": "Strings/schedules/Wizard",
+			"Entries": {
+				   "summer.000": "The air is heady with arcane energy.",
+        			   "summer.001": "The energies are most potent here, in the summer.",
+        			   "fall.000": "One last breath of fresh air before the dead of winter comes.",
+        			   "fall.001": "In fall, all energies must fade.#$e#I am no exception to that rule.",
+        			   "fall_26": "I'm helping prepare for tomorrow's festivities.",
+        			   "spring.000": "Even I need fresh air sometimes.",
+        			   "spring.001": "This area is perfect for pure concentration.",
+        			   "marriage_Thu.000": "My heart.#$b#My tower seems empty compared to our home.#$b#But I cannot deny the benefits of working here, at times.",
+        			   "marriage_Thu.001": "Ah, @. Have you come to check on me?#$b#I'll be home, soon. Just after I finish one... last... thing...#$b#...#$b#What time is it?#$b#...I may have forgotten to eat lunch."
+				}
+        },
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/schedules/Wizard",
+			"Entries": {
+				   "rain": "700 WizardHouse 2 17 2/1200 WizardHouse 4 13 2/1900 WizardHouse 9 20 2",
+        			   "summer": "700 WizardHouse 2 17 2/1000 Forest 21 27 2 \"Strings\\schedules\\Wizard:summer.000\"/1200 Woods 7 7 2 \"Strings\\schedules\\Wizard:summer.001\"/1700 WizardHouse 4 13 2/1900 WizardHouse 9 20 2",
+        			   "fall": "700 WizardHouse 2 17 2/1000 Forest 21 27 2 \"Strings\\schedules\\Wizard:fall.000\"/1200 Woods 7 7 2 \"Strings\\schedules\\Wizard:fall.001\"/1700 WizardHouse 4 13 2/1900 WizardHouse 9 20 2",
+       			           "fall_26": "700 Town 51 60 2 \"Strings\\schedules\\Wizard:fall_26\"/1200 Town 26 29 2 \"Strings\\schedules\\Wizard:fall_26\"/1500 Town 20 62 2 \"Strings\\schedules\\Wizard:fall_26\"/1800 WizardHouse 9 20 2",
+        			   "fall_27": "700 Town 51 60 2/2200 WizardHouse 9 20 2",
+        			   "winter": "700 WizardHouse 2 17 2/1200 WizardHouse 4 13 2/1900 WizardHouse 9 20 2",
+        			   "spring": "700 WizardHouse 2 17 2/1000 Forest 21 27 2 \"Strings\\schedules\\Wizard:spring.000\"/1200 Woods 7 7 2 \"Strings\\schedules\\Wizard:spring.001\"/1700 WizardHouse 4 13 2/1900 WizardHouse 9 20 2",
+        			   "marriage_Thu": "800 WizardHouse 9 20 2 \"Strings\\schedules\\Wizard:marriage_Thu.000\"/1500 WizardHouse 3 19 2 \"Strings\\schedules\\Wizard:marriage_Thu.001\"/2030 BusStop -1 23 3"
+				   }
+        },
+
+        {
+			"Action": "Load",
+			"Target": "Maps/WizardHouseBasement",
+			"FromFile": "assets/Maps/WizardHouseBasement.tbin",
+		},
+
+		{
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+			 "Wizard": "Stormy days are the only time I can commune with certain elementals. It is a delicate business.#$e#Embrace the mysteries of the day, @.",
+			},
+
+            "When": {
+				"Override Generic Dialogue": "true",
+			},
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogue",
+            "Entries": {
+			"Rainy_Day_0": "Ah ha! The swelling energies have burst, and the rains come. Quickly! There is no time to lose.$1#$b#This is the best time to commune with certain elementals.#$e#Let's see... I will need... amethyst... black flame candles...#$b#Now where did I put that iridium?",
+        "Rainy_Day_1": "The weather is perfect for a summoning ritual.#$b#The morning is best for it. I think that open patch outside...#$e#You don't need those crops, do you?",
+        "Rainy_Day_2": "Ah, excellent weather. I'll be busy today; the energies flow like a river, today. It would be a waste not to take advantage.#$b#Yes, outdoors. Where else would I do it?#$e#Hmm...? Yes, I will be soaked.#$b#You're welcome to handle that however you like, but only after I've completed my spell.",
+        "Rainy_Day_3": "This weather reminds me of a night I spent holed up in a rickety old miner's cabin in the middle of no where. Back when I was young and foolish, I would lose track of time and weather while absorbed in my work.#$b# I hardly noticed the storm until it was right on top of me, and the valley threatened to wash me away.#$b#Thankfully, I found the cabin before then. Even so, I feared all night that it would collapse on top of me.#$e#Hm? What do you mean I still lose track of things while working?#$b#I have no idea what you're talking about.",
+        "Rainy_Day_4": "Were I a domestic husband, I would offer to make you a hot dinner after the day you will inevitably spend in this storm.#$b#But I'm not. You knew that before you married me, so I won't apologize.#$e#Unless you want burnt soup.#$b#Don't ask how - I would find a way to do it.",
+        "Rainy_Day_Maru": "Despite all the technology we have, a rainy day is still the best tool for watering crops.",
+        "Rainy_Day_Abigail": "The countryside looks more interesting on a day like this, don't you think?",
+        "Rainy_Day_Penny": "I think I might do some baking today.$h",
+        "Rainy_Day_Leah": "Might want to do some fishing or mining today, huh?",
+        "Rainy_Day_Haley": "Hmmph. If this weather keeps up I'll get too pale.$s",
+        "Rainy_Day_Harvey": "Make sure you stay dry today, dear. I don't want you to become hypothermic.",
+        "Rainy_Day_Sebastian": "I got up just before dawn and took a walk around the farm. It's really peaceful at that hour.",
+        "Rainy_Day_Alex": "Hmm... I guess I'll have to do push-ups and sit-ups indoors today.",
+        "Rainy_Day_Elliott": "The rain makes me think of my old life by the ocean.#$e#Change is part of life. That's okay.",
+        "Rainy_Day_Sam": "I might spend some time today fixing any leaks in the roof or the windows.",
+        "Rainy_Day_Emily": "I know you pride yourself on your work, but don't overdo it today. Okay, honey?$u",
+        "Rainy_Day_Shane": "The roof's leaking? Ah well... a little mold never hurt anyone.",
+        "Rainy_Day_Wizard": "Mmm, the air is heavy with magic. Can you feel it?#$e#Stay in with me, today. I'll give you another lesson in elementals.",
+        "Rainy_Night_0": "There is something comfortable about being isolated here in the rain, with no one else around.#$e#Aren't you ready to come to bed?",
+        "Rainy_Night_1": "...burnt smell?#$b#No, I don't smell anything.#$e#In all seriousness, I did warn you I could find a way to burn soup.#$b#Let us not speak of this again.",
+        "Rainy_Night_2": "@, you are drenched!$1#$b#Just a moment. I have a spell...#$b#Ithikitalkus suh norn!$1#$b#There. Much better.#$e#...#$b#Drat. Why didn't I think to use wet clothes as an excuse before I dried them?",
+        "Rainy_Night_3": "The crackling of the fire is ever more inviting on a night like this.#$e#Sit with me awhile and watch the flames.#$b#I promise not to talk about elementals.#$b#...much.",
+        "Rainy_Night_4": "Ah. Yes. Dinner.#$b#Well, you see, I tried a spell to create a magnificent feast, but magic is a funny thing, you know...#$e#I put out the fire before it spread.#$b#You probably can't even tell it was there.",
+        "Rainy_Night_5": "I'm glad you're home, @. It is a good night to lie in each others arms and read.#$b#I'll even read you something understandable, this time.#$e#Now see here, that last book was very fascinating.#$b#If you want to appreciate the mysteries of the world, you'll just have to learn some new languages.",
+        "Rainy_Night_Maru": "Where you able to accomplish much today, hun?#$e#I tried to fix up some things around the house... you know, just little stuff.",
+        "Rainy_Night_Abigail": "I'm ready to hop into bed whenever you are. The sound of rain will put us right to sleep.",
+        "Rainy_Night_Penny": "Oh... the smell? I tried to do some baking... It didn't work out too well.$s",
+        "Rainy_Night_Leah": "How was your day today, dear? Muddy?",
+        "Rainy_Night_Haley": "Hi, honey. I'm so glad you're home. I was starting to get kind of lonely.$l",
+        "Rainy_Night_Harvey": "Hi. It's good to see you.$h#$e#I spent the day skimming through some medical journals.",
+        "Rainy_Night_Sebastian": "I'll never grow tired of the rain... especially out here in the countryside.",
+        "Rainy_Night_Alex": "Grandma always used to make hot stew on nights like this.$h",
+        "Rainy_Night_Elliott": "Sit down, relax! You've got to be tired after trudging through the mud all day.",
+        "Rainy_Night_Sam": "Vincent called. He said he misses me and also to tell you hi.$h",
+        "Rainy_Night_Shane": "I just got off the phone with Jas and Marnie. They seem to be having a pretty good time without me.",
+        "Rainy_Night_Emily": "Certain spirits only appear in the rain. Maybe you've heard their cries?",
+        "Indoor_Day_0": "Good morning, my heart.#$e#I believe I will try that spell of conjuring again, today.#$b#What do you have planned?",
+        "Indoor_Day_1": "Ah, @. You're just in time. I have made you breakfast. [201 210 211 194 195]#$e#What do you mean you thought I couldn't cook? I'm insulted.$1#$e#...#$b#Alright, I bought it.#$b#Can't you pretend I made it?",
+        "Indoor_Day_2": "@, core of my heart.#$b#Did you sleep well?#$e#I did, with you beside me.",
+        "Indoor_Day_3": "Nngh... I had this bizarre dream about a a %adj %noun.#$b#I wonder what it means. An omen, perhaps...#$e#I'm sure I have a book on this, somewhere...",
+        "Indoor_Day_4": "Having watch you go about your business on the farm more than once, now, I will no longer find your physique a mystery.#$b#I didn't say I would stop admiring it.#$e#Ahem. What? Nothing.#$b#Go on. Don't you have... heavy objects to lift?#$b#I'll just be over here.#$b#Unquestionably paying close attention to something else.",
+        "Indoor_Day_Maru": "If you ever want to talk about how to maximize crop yield or anything... I'm open to that!",
+        "Indoor_Day_Abigail": "There's always something new happening on our farm... I love it.",
+        "Indoor_Day_Penny": "This place is so big compared to the trailer, I feel overwhelmed... In a good way!",
+        "Indoor_Day_Leah": "Mind if I add some architectural flair to the woodwork around here? My chisel hand is itching!",
+        "Indoor_Day_Haley": "I always feel happy on a sunny day.$h",
+        "Indoor_Day_Harvey": "The sky looks great today... so clear!#$e#From now on, I'm only going to go into the clinic when I have appointments. Otherwise I can just work from home!",
+        "Indoor_Day_Sebastian": "Well, this place sure beats my old basement room, doesn't it?$h",
+        "Indoor_Day_Alex": "The sun's shining and I'm bursting with energy! You'd better watch out! Heh Heh.$h",
+        "Indoor_Day_Elliott": "I've been keeping a journal ever since we moved in together. Now that I actually have a life, I have lots to write about.$h#$e#I want to make sure I always remember these years.",
+        "Indoor_Day_Sam": "There's too much stuff I want to get done today... Maybe I'll just watch TV instead.",
+        "Indoor_Day_Emily": "By providing fresh, healthy produce to the community, we're doing a great service!",
+        "Indoor_Day_Shane": "There's something special in the air... *sniff*... what is that? Oh...#$b#It's just this old corn chip I put in my pocket a few weeks ago. *crunch*",
+        "Indoor_Night_0": "Urg... my mind aches.#$b#It's dangerous to delve too far into the Beyond, but...#$b#Curiousity killed the wizard.#$e#I'll allow you to drag me to bed, though.",
+        "Indoor_Night_1": "Did you have a productive day, today? You look full ready for bed.#$b#Why not take a break, tomorrow? You work hard enough.#$e#What do you mean I'm the one always overworking?",
+        "Indoor_Night_2": "Ah, @. Home at last.#$b#How did I survive so long without you?#$e#Yet another mystery.",
+        "Indoor_Night_3": "Are you through with your work for the day?#$b#Might I convince you to... join me in bed?",
+        "Indoor_Night_4": "Come to bed, my heart. My arms have been too long without you.",
+        "Indoor_Night_Maru": "You look like you're ready for bed, @. Should I lull you to sleep with the technical details of my latest project?$h#$e#*yawn*... To be honest, I'm kind of sleepy too.",
+        "Indoor_Night_Abigail": "Are you ready for bed soon? I turned on the electric blanket for us...$l",
+        "Indoor_Night_Penny": "Hi there, honey. Ready to spend a quiet evening at home?",
+        "Indoor_Night_Leah": "It's so quiet and peaceful in the evening. Nothing to distract you from the experience of living.",
+        "Indoor_Night_Haley": "You look like you've been working hard, dear. Let me help you de-stress.$l",
+        "Indoor_Night_Harvey": "You look like you could use a good massage tonight.$l#$e#Doctor's orders... It's good for the circulation!",
+        "Indoor_Night_Sebastian": "#$c .5#I may be a reclusive guy, but I'm always happy when you're around.$h#$e#Hi, @. Good to see you. It's comforting when you're around.$h",
+        "Indoor_Night_Alex": "My arms feel a little restless... How about a nice, deep massage?$l^I feel exhausted... That's a good sign! It means I worked hard enough today.$h",
+        "Indoor_Night_Elliott": "#$c .5#You always smell so good after a day of hard work. It's your natural musk!^You smell sweet, my dear. Like a honeycomb drifting on a pool of spice tea.#$e#Come here, let me massage your back. You look tense.$l^You smell sweet, my dear. Like a cinnamon leaf floating in the summer breeze.",
+        "Indoor_Night_Sam": "#$c .5#I wonder if the moon is visible tonight?#$e#So, did you get everything done on the farm today? If you didn't I won't be mad!",
+        "Indoor_Night_Emily": "It's a very cozy house... I like it.",
+        "Indoor_Night_Shane": "How was your day? Mine actually went pretty well.",
+        "Outdoor_0": "",
+        "Outdoor_1": "",
+        "Outdoor_2": "",
+        "Outdoor_3": "",
+        "Outdoor_4": "",
+        "Outdoor_Maru": "I like being out here. It's a good place to think about new inventions.$h#$e#I'm still hoping to come up with something to help you out in your work.",
+        "Outdoor_Abigail": "I'm just going to hang out here, okay?#$e#There's a lot of interesting bugs and things out here. *chuckle*$h",
+        "Outdoor_Haley": "Looks like a good day to work on my tan, don't you think, sweetheart?$h",
+        "Outdoor_Leah": "Wow, this is great! I'm really starting to enjoy life on the farm, @.$h#$e#This is the life I've always dreamed of.$l",
+        "Outdoor_Penny": "I'm really happy on our little farm, @.$h",
+        "Outdoor_Sebastian": "This is so different from my old life, but I'm really starting to like it.$h#$e#I feel like I really belong here.$l",
+        "Outdoor_Harvey": "This is so much nicer than being cooped up in the clinic all day.$l#$e#I love watching you on the farm... hehe",
+        "Outdoor_Elliott": "Today, I'm going to continue writing my new novel. What better place than our wonderful farm?$h#$e#This is perfect.$l",
+        "Outdoor_Alex": "I'm going to get a bunch of exercise today! Haha! I love living on a farm.$h",
+        "Outdoor_Sam": "Hey, look at those puffy clouds in the sky, honey!$h#$e#I'm going to watch those for a while, if you don't mind.",
+        "Outdoor_Shane": "I dunno if my lungs can handle this freshness. I'm still used to JojaAir.",
+        "Outdoor_Emily": "You're doing great work, @. Keep it up.",
+        "jobLeave_Harvey": "I have to go into the clinic today. Have a nice day, okay?",
+        "jobLeave_Penny": "I have to go into town today. Don't work too hard, and eat something good for lunch!$h",
+        "jobLeave_Maru": "I have to leave for work soon. I'll see you tonight. I'll be thinking of you!$h",
+        "jobReturn_Harvey": "#$c .5#Hi, honey. How was your day?#$e#*Phew*... I'm exhausted...$s#$e#My patients are still healthy, so it was a good day.",
+        "jobReturn_Penny": "#$c .5#Good evening. My day was fine, thanks! How was yours?$h#$e#Jas and Vincent weren't behaving very well today. I'm still all wound up...",
+        "jobReturn_Maru": "#$c .5#Well, it was just another boring day at the clinic.#$e#Hey. Did you have a more exciting day than me? I hope so.#$e#$c .5#Well, It's time to kick back and relax. Did you leave me any dinner?#$e#I'm just looking forward to bed-time.$h",
+        "OneKid_0": "Have you seen %kid1, recently?#$e#What? No. Of course I didn't lose our child$1#$b#Everything is under control.",
+        "OneKid_1": "Sometimes I can hardly believe that we have a child.#$e#Then I remember you trust me enough to leave me alone with said child and everything else seems much less mysterious in comparison.",
+        "OneKid_2": "I will feed %kid1, this morning, so you can focus on your work.#$e#Yes, I know. Raw eggplant is not breakfast.#$b#I remember.",
+        "OneKid_3": "Our whole lives have changed with %kid1, here.#$e#I don't regret a thing.",
+        "TwoKids_0": "Do you ever stand here and marvel at the two beautiful children our love has brought into the world?#$e#I do every day.",
+        "TwoKids_1": "%kid1 got into my surpluss potion ingredients, the other day.#$b#I believe that is a sign: it is high time for formal training to begin.#$e#%kid2 is still too young, but %kid1 is old enough to grasp the basics of energy flow and bridging...",
+        "TwoKids_2": "We're blessed that %kid1 and %kid2 have your features.#$e#It would be a cruel twist of fate indeed for any child to look like me.",
+        "TwoKids_3": "This life... with you and our children...#$b#It's more than I ever thought I would have.#$e#Thank you, @, for choosing me.",
+        "Good_0": "I still cannot believe that you chose to marry me...",
+        "Good_1": "Not even in all of my forrays into the future did I predict I could ever be so happy as you have made me.",
+        "Good_2": "You know... I fell for you long before you gave me that bouquet.#$e#I never said a word.#$b#I thought you could never love a man like me.",
+        "Good_3": "My love, you look simply radiant.",
+        "Good_4": "This... this is more home than ever my tower was. Or any place I dwelled before that.#$e#From now on, my home is with you. My heart.",
+        "Good_5": "@... this wedding amulet is flawless.#$b#You know I don't care for trinkets without practical use, but this...#$b#This is a symbol of you, joined with me.#$e#It is more important than anything I have ever owned.",
+        "Good_6": "If you venture into the mines, beware, my heart.#$b#I have told you before of the evil that lurks there.#$b#I don't know what I would do if you fell prey...",
+        "Good_7": "@. This house is a home because of all the work you do.#$b#Never let yourself believe I don't notice.",
+        "Good_8": "Sometimes, seeing all you do for us, I wonder how I survived before you married me.#$e#Then I remember I once subsisted an entire week on swamp moss and algae broth because my food delivery was delayed in a winter storm...",
+        "Good_9": "This peace...#$b#This is what I always craved and never thought I would feel again.#$e#Thank you, @.",
+        "Neutral_0": "Joy is a mysterious power. Fragile in its most pure state, when it does appear it can resonate through the ages.#$b#Yet, that same joy can become corrupted over time. It must be protected, at all cost.#$e#Be enchanted, @. Be at peace.",
+        "Neutral_1": "Anger and hatred, they are false energies. They hide the real sources of power, which is understanding and sadness.#$b#It has become cliche, but it's true. I have learned so much, and it still holds true. Find peace before you tear yourself to pieces.#$e#Seek knowledge, seek answers. Have a good one.",
+        "Neutral_2": "Using the energies comes at a cost. It's not free. To discuss all the different aspects would take ages.#$b#I'll tell you this though, @. My hair was not originally purple.#$e#That was a long time ago...",
+        "Neutral_3": "I once saw a person try to keep a tree alive all year long, using powerful energies to do so.#$b#It was horrible: the tree itself wept, and begged to be freed. I had to step in and save the tree.#$b#I still have some of its leaves it gave to me as a gift. They are special to me.#$e#Focus your mind today, @, and be at peace.",
+        "Neutral_4": "If you go into town, make sure and say 'what's popping?' to everyone for me.",
+        "Neutral_5": "How are we doing, financially, @?#$e#If there is anything I can do, you need only ask.",
+        "Neutral_6": "Another day, another mystery to solve...",
+        "Neutral_7": "Have you been practicing meditating, like I taught you?",
+        "Neutral_8": "Hmm?#$b#Mess? No. I haven't noticed any.",
+        "Neutral_9": "If you find yourself obsessed with something you've never been interested before, it can mean you have been enchanted.#$b#Not all enchantments are bad, of course. Some can be quite positive. It is very mysterious.#$e#Embrace the mysteries of the day, @.",
+        "Bad_0": "...Do you still love me?",
+        "Bad_1": "...I should never have married again. I bring pain to those I love.",
+        "Bad_2": "You regret it, don't you?#$b#Your choice to marry me.",
+        "Bad_3": "Have I done something wrong...? It seems everything is falling apart, lately...",
+        "Bad_4": "I had hoped I would only ever live through one broken heart...",
+        "Bad_5": "I should never have let you marry me.#$b#I seem only to make your life worse.",
+        "Bad_6": "We only have one short life to live... is this the best way to do it?$s",
+        "Bad_7": "If there is anything I can do to fix this, please, tell me!$1#$b#I'm not ready to fail again. Not with you. ",
+        "Bad_8": "You have been so cold to me lately...",
+        "Bad_9": "If only I had been better for you...",
+        "spring_Maru": "I'm feeling excited for a new year of farming, @!$h",
+        "spring_Abigail": "I may like the colder seasons, but by the end I'm always glad to see spring arrive.",
+        "spring_Haley": "Aren't you glad winter's over, honey? Things seem more hopeful now.",
+        "spring_Leah": "Don't forget to look for wild horseradish, leeks and dandelions while you're out there!",
+        "spring_Penny": "I'm so happy to see some greenery after that long white winter.",
+        "spring_Sebastian": "Wow, my skin is pale... I guess I'd better help you with some farm work this season.",
+        "spring_Harvey": "Let's plant some healthy vegetables this spring.$h",
+        "spring_Elliott": "I'm looking forward to a beautiful year on %farm farm.$h",
+        "spring_Alex": "Hey @. Let's work hard today!",
+        "spring_Sam": "*sniff* ... My doze is stubbed up... allergies.",
+        "spring_Shane": "Maybe I'll learn a new skill this year...",
+        "summer_Maru": "It's a good time of year to do some stargazing.",
+        "summer_Abigail": "Oh man... I could go for some chocolate cake.",
+        "summer_Haley": "You must know by now that summer is my favorite season.$h",
+        "summer_Leah": "Nothing pairs so well with summer like a nice sweet wine. Don't you think, honey?",
+        "summer_Penny": "Are you growing any melons this summer?",
+        "summer_Sebastian": "I'm going to stay inside as much as possible this summer.",
+        "summer_Harvey": "Make sure you don't get sunburnt, honey... That can really damage your skin.",
+        "summer_Elliott": "One of the main things I miss about the ocean is the fresh fish.",
+        "summer_Alex": "I always have the most energy in the summer.",
+        "summer_Sam": "Summer always makes me want to eat more barbecue.",
+        "summer_Emily": "Phew! It's hot but it feels great, doesn't it?#$e#Maybe we'll see some wild parrots today.",
+        "summer_Shane": "What's on my agenda today... hmmm... #$e#I think I see some spicy pretzel snacks and a couple of 'cold boys' on the horizon.",
+        "fall_Maru": "I'm glad I still work at the clinic... It's an important service for the community.",
+        "fall_Abigail": "I hope we're growing pumpkins this year.$h",
+        "fall_Haley": "I'm craving cake.#$e#But not just any cake... it has to be pink.",
+        "fall_Leah": "Breathe deep... can you smell that? That tells me it's mushroom season.",
+        "fall_Penny": "It's so peaceful out here on the farm. I never appreciated nature that much living in town.",
+        "fall_Sebastian": "My mother used to always make this delicious pumpkin soup in the fall.",
+        "fall_Harvey": "I could sure go for some wine.",
+        "fall_Elliott": "Ah... Fall. The warm sun drifts low in the sky, casting long shadows over waving fields of gold.#$e#It's a beautiful time of year, don't you think?",
+        "fall_Alex": "I feel weak... I need some protein.$s",
+        "fall_Sam": "I wonder what's going on in the rest of the world? We're really secluded here.",
+        "fall_Emily": "I drank a super-food smoothie this morning and I feel aaah-mazing!$h",
+        "fall_Shane": "I think there might be a new species of fungus growing behind my mini-fridge.#$e#Ah well, 'tis the season, right?",
+        "winter_Maru": "Spring is coming soon. I'm really looking forward to having rhubarb pie.",
+        "winter_Abigail": "Remember when we played that 'Prairie King' game together, in my room? Those were good times.$h",
+        "winter_Haley": "I was just thinking about the time you helped me open a jar of pickles.$h#$e#We've come a long way since then.$l",
+        "winter_Leah": "I always start craving salad in the winter... Inconvenient, I know.",
+        "winter_Penny": "I'm going to do a lot of reading this winter.",
+        "winter_Sebastian": "I wonder what Sam's up to? We used to be really good friends.",
+        "winter_Harvey": "Winter is flu season, so work is probably going to be a lot more stressful. Sorry in advance if I'm grouchy.",
+        "winter_Elliott": "I think I might do some writing this winter. There's not much else to do, anyway.",
+        "winter_Alex": "I hope my grandparents are doing okay. They used to rely on my help quite a bit. You know, with lifting heavy objects or whatever.",
+        "winter_Sam": "I've given up on being a musician. I'm a family man now!",
+        "winter_Emily": "Whoops, my hair is frozen solid again.$s",
+        "winter_Shane": "There's a wide, wide world out there... but I'd rather stay in my room.",
+
+			},
+
+            "When": {
+				"Override Generic Dialogue": "true",
+			},
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+			"NewChild_SecondChild1": "A family of our own... I never would have imagined.",
+        	        "NewChild_SecondChild2": "Never did I foresee two beautiful children with the love of my life... This is what I was missing.",
+			},
+
+            "When": {
+				"Override Generic Dialogue": "true",
+			},
+        },
+
+	{
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+			"111": "ItemDelivery/A Dark Reagent/The wizard wants you to descend into the mines and fetch him a Void Essence. He needs it for some kind of spoopy magic./Bring Wizard a Void Essence./Wizard 769/-1/1000/-1/true/Ah. I had a feeling you would be the one to fulfill my wish. You walk with the shadows fearlessly. Please, take this in return.",
+		        "123": "ItemDelivery/Staff Of Power/The Wizard is creating a staff of phenomenal power. Or at least, a purple one. He needs an iridium bar to finish it./Bring Wizard an Iridium Bar./Wizard 337/-1/5000/-1/true/Ah, precious iridium. You've done well, @. You have my eternal thanks.",
+			}
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+			"Game1.cs.2782": "That celebration was... overmuch. I'm am unused to being the center of such a crowd. #$e#I much prefer to be alone here with you.",
+			"NPC.cs.3962": "Ah! Is this...? For me...?$1#$b#Of course I feel the same!$1#$e#My heartbeat is fierce. How is yours?$1",
+        	        "NPC.cs.3963": "Ah! Is this...? For me...?$1#$b#Of course I feel the same!$1#$e#My heartbeat is fierce. How is yours?$1",
+			"NPC.cs.3980": "...!!!$1#$b#@...!$1#$b#You truly wish to marry me?$1#$b#If that is true - somehow, impossibly true - then yes! Unequivocally, yes!!$1#$b#I will see to all the arrangements. Give me but three days, my love.",
+			"NPC.cs.4001": "My heart, this fruit is for you. It has potent arcane energies to enhance your own.#$e#Let it be a symbol of my love.",
+		        "NPC.cs.4406": "Cannot... get... up...#$e#Perhaps I expended too much energy yesterday.",
+		        "NPC.cs.4422": "I feel a dark mood encroaches.#$b#What have I done with my life to this point? Will I ever find what I first sought, or will I waste away in obscurity and failure?",
+       		        "NPC.cs.4423": "Ith akular...#$b# Ith soth...#$b#Ith igira kair...#$e#Hmm...? I am fine. Merely distracted - I must finish this...",
+        	        "NPC.cs.4424": "I am drained. The energies are tremulous about me.#$e#Perhaps I should not have completed that second gate, yesterday...",
+        	         "NPC.cs.4425": "Life has changed since we were wed...",
+        	       "NPC.cs.4426": "I have no time for the trivialities of housekeeping.#$b#See to them, yourself, if it bothers you.",
+        	        "NPC.cs.4427": "You look at me and see a fool, don't you?#$e#It is what I am...",
+        	        "NPC.cs.4429": "Sometimes I catch sight of myself in the mirror and wonder what you saw in this face.#$e#Do you see it, still?",
+        	        "NPC.cs.4431": "...#$b#I feel... constrained in this place.#$ePerhaps I should take some time away.",
+        	        "NPC.cs.4432": "The energies grow darker by the day...",
+        	        "NPC.cs.4433": "I have a great deal on my mind.#$e#I would prefer not to be disturbed.",
+        	        "NPC.cs.4434": "Nghh... It is far too early to be up and about.#$b#For you, as well. Get back here.#$e#Of course I didn't stay up all night. Only until two.",
+        	        "NPC.cs.4435": "Come back to bed. It's warmer in here.#$e#Where are you going? Come back here and enable my lethargy!",
+        	        "NPC.cs.4436": "Are you sure you wouldn't rather just stay here, today?#$e#We could stay in bed and only pretend we had been productive.",
+        	        "NPC.cs.4437": "Where are you going? I haven't finished sleeping, yet.#$e#You know I can't sleep after you rise.",
+        	        "NPC.cs.4438": "Nnnghh...#$b#The nightmares have returned.#$e#Stay with me.",
+        	        "NPC.cs.4439": "Much as I am eager to be a father, I cannot help but be apprehensive about the changes a child will bring to our lives...#$e#Swear to me that whatever comes, we will make the changes for the better.$1",
+		        "NPC.cs.4452": "@. If I don't get a moment to myself I may strangle someone.#$e#Please. Just deal with the children, today.",
+     		        "NPC.cs.4462": "I arose early to tend to the crops. I hope it will ease the burden on you.#$b# Be at peace, my love.",
+        	        "NPC.cs.4463": "#$e#I have also refilled {0}'s water bowl.",
+		        "NPC.cs.4470": "I arose early to tend the crops for you, and found the work already done! You are a marvel, {0}.$1",
+        	        "NPC.cs.4474": "I arose early to tend to the animals. I hope it will ease the burden on you.#$b#Have an enchanted day, my love.",
+        	        "NPC.cs.4481": "I have expended some energy making repairs to your fences. With any luck, they will not spontaneously combust until the rains come.",
+		        "NPC.cs.4488": "Ah! At last, my special delivery has arrived!$1",
+        	        "NPC.cs.4489": "Do you ever find this space too drab in the absence of a massive cauldron?",
+			"NPC.cs.4507": "My love",
+        	        "NPC.cs.4508": "My love",
+        	        "NPC.cs.4509": "My love",
+       		        "NPC.cs.4510": "My love",
+        	        "NPC.cs.4511": "My love",
+        	        "NPC.cs.4512": "My love",
+        	        "NPC.cs.4513": "My love",
+        	        "NPC.cs.4514": "My heart",
+        	        "NPC.cs.4515": "My heart",
+        	        "NPC.cs.4516": "My heart",
+        	        "NPC.cs.4517": "My heart",
+        	        "NPC.cs.4518": "My heart",
+        	        "NPC.cs.4519": "My heart",
+        	        "NPC.cs.4522": "My heart",
+        	        "NPC.cs.4523": "My heart",
+			},
+
+            "When": {
+				"Override Generic Dialogue": "true",
+			},
+        },  
+
+        {
+            "Action": "EditData",
+            "Target": "Strings/Events",
+            "Entries": {
+			"HaveBabyQuestion": "{0}... What would you say to having a child with me?",
+        	        "HaveBabyQuestion_Adoption": "{0}... What would you say to adopting a child with me??",
+			},
+
+            "When": {
+				"Override Generic Dialogue": "true",
+			},
+		}, 
+
+		{
+            "Action": "EditData",
+			"Target": "Data/mail",
+            "Entries": {
+                "wizardNap": "Greetings @,^^I must apologize for the state in which you found me the other day. On occasion I find my sleep plagued with dark dreams and I, childishly, resort to avoiding my bed. It shames me to know you witnessed such behavior from me. Nevertheless, I would like to thank you for choosing to stay with me. With you nearby I slept soundly as I have not for several weeks.^If I can ever repay you, you have but to ask.^^ Sincerely,^ M. Rasmodius",
+                "teachMagic": "Greetings @,^^Many untold wonders are sheltered amongst the trees. Today, in particular, a strange energy stirs in the forest.^If you would like to learn heretofore unknown secrets, meet me in the hidden woods north of my tower.^^ Sincerely,^ M. Rasmodius",
+            },
+		},
+		
+		{
+            "Action": "EditData",
+			"Target": "Data/Events/Farm",
+            "Entries": {
+                "282815627/f Wizard 2500/x teachMagic": "null"
+            }
+        },
+
+        {
+            "Action": "EditData",
+			"Target": "Data/Events/Forest",
+            "Entries": {
+                "6663/f Wizard 1500/f Leah 500/w sunny/t 800 1600": "WizardSong/-1000 -1000/farmer 94 35 3 Leah 76 40 0 Wizard 66 40 1/skippable/viewport 77 40 true/pause 1000/faceDirection Leah 1/pause 200/faceDirection Leah 3/pause 200/speak Leah \"Hello? Is someone there?$5\"/pause 300/move Wizard 5 0 1/pause 200/speak Leah \"...Oh! You scared me!$6#$b#You're the one who lives in that tower, aren't you? \"/pause 300/move Wizard 3 0 1/pause 200/speak Leah \"....Um...?$5\"/pause 300/move Wizard 1 0 1/pause 100/move Leah 1 0 3/pause 200/speak Leah \"What are you doing?$6\"/pause 300/speak Wizard \"How is it suspended as a pendulum?\"/pause 300/emote Leah 8/pause 300/speak Leah \"What??$5\"/pause 300/move Wizard 1 0 1/pause 200/speak Wizard \"What is fracturing?\"/pause 300/move Leah 1 0 3/pause 200/speak Leah \"Uh...$5\"/pause 300/move Wizard 1 0 1/pause 200/speak Wizard \"What is... up?\"/pause 200/emote Leah 40/pause 200/move Leah 1 0 3/pause 500/emote Wizard 40/pause 300/speed farmer 2/move farmer -10 0 3/faceDirection Leah 0/speak Leah \"@! Thank goodness!$6\"/speed farmer 3/move farmer -6 2 3/move farmer 0 4 2/speak Leah \"This guy just walked out of the trees over there. I think he's speaking in tongues. It's really freaking me out!$5\"/faceDirection Leah 3/pause 300/speak Wizard \"@, what is trembling?\"/speak Wizard \"$q 566 null#What is trembling?#$r 566 0 event_slang1#Uh... What...?#$r 566 10 event_slang2#Have you been studying slang, again?#$r 566 -50 event_slang3#Cut it out! You're scaring Leah.\"/pause 300/speak Wizard \"I have decided to apply my newly learned phrases in casual conversation in an effort to form new connections with the people of this town. \"/speak Wizard \"$q 562 null#How do I fare?#$r 562 -50 event_skillz1#Honestly? That was terrible. Just stick with the spirits.#$r 562 20 event_skillz2#Well... you... uh... you did good.#$r 562 20 event_skillz3#It's a good start, but I think you should practice with someone who knows what you're doing...\"/pause 300/speak Leah \"You were really just trying to ask 'what's up'?\"/pause 300/speak Wizard \"Indeed.\"/speak Leah \"Why not just say that?\"/pause 500/speak Wizard \"...did I not?\"/pause 300/emote Leah 40/pause 200/emote Wizard 40/pause 200/emote farmer 40/pause 300/speak Wizard \"Perhaps I require more practice.#$b#@, you seem to have a strong understanding of these matters.\"/speak Wizard \"$q 579 null#Would you be willing to teach me your ways?#$r 579 0 event_moarskillz1#I'm not really very good at it... maybe you should ask someone else.#$r 579 50 event_moarskillz2#Of course! I'd be happy to help you!#$r 579 -50 event_moarskillz3#No way.\"/pause 500/speak Wizard \"I offer apologies, young Leah. When next we meet, I hope to be more adept in the ways of mortal communication.#$b#Until then, @, Leah: embrace the mysteries of the day. Learn something new.\"/speed Wizard 4/move Wizard -11 0 3/faceDirection farmer 3/speed Wizard 4/move Wizard -10 0 3/move Leah -1 0 3/speak Leah \"Well. That was... weird.#$b#I hope he doesn't make a habit of sneaking up on people and shouting 'What is up, Canis lupus familiaris?'\"/pause 500/faceDirection Leah 0/faceDirection farmer 2/emote Leah 40/pause 100/emote farmer 40/pause 500/speak Leah \"Actually I hope he does.$1#$b#Just promise to take some pictures when it happens.$1\"/end",
+            }
+        },
+
+        {
+            "Action": "EditData",
+			"Target": "Data/Events/Mountain",
+            "Entries": {
+                "6662/f Wizard 1000/f Linus 250/t 2000 2400": "nightTime/-1000 -1000/farmer 15 8 1 Linus 29 8 2 Wizard 30 9 3/specificTemporarySprite linusCampfire/skippable/viewport 29 7 clamp true/speak Wizard \"The river rages with possibilities.\"/pause 300/speak Linus \"More than usual?\"/pause 300/speak Wizard \"Indeed. It is a tangled tapestry we weave. To follow a single thread... impossible.\"/pause 300/speak Linus \"Especially when someone is playing with the strings, hum? \"/pause 300/speak Wizard \"Ah. So you have noticed, as well. I might have guessed.\"/pause 300/speak Linus \"Hard not to notice.\"/pause 300/speak Wizard \"Indeed.\"/pause 200/speak Wizard \"And it seems the fates, too, take notice on this day.#$b#Come closer, @. There is no need for you to hide amongst the bushes.\"/speed farmer 2/move farmer 11 0 1/faceDirection Linus 3/emote Linus 16/pause 500/speak Wizard \"We were just speaking of you.\"/speak Wizard \"$q 42 null#... #$r 42 10 event_speakof1#It's rude to talk about people behind their backs.#$r 42 0 event_speakof2#Er... you were...?\"/pause 500/move farmer 2 0 2/move farmer 0 1 1/faceDirection Linus 2/pause 500/speak Wizard \"It seems that I am not the only one who has noticed the way the energies swirl about you.#$b#Though he may not be a master of elementals, Linus is perspicacious enough to sense the truth without divining, unlike most mundane folk in this valley. \"/pause 500/speak Wizard \"$q 79 null#You hold fate in your hands, @. What will you do with it?#$r 79 50 event_fate1#Restore the natural order of the world.#$r 79 0 event_fate2#What...? I don't want to do anything with it!#$r 79 -50 event_fate3#Extort it for my own gain.\"/pause 500/speak Wizard \"Soon the tides will turn and, if you are not vigilant, the delicate balance may fall. Be prepared.#$b#Until then, seek the energies, @. We will meet again. \"/pause 100/end",
+            }
+        },
+
+        {
+            "Action": "EditData",
+			"Target": "Data/Events/WizardHouse",
+            "Entries": {
+                "6661/f Wizard 500/t 600 2300": "WizardSong/-1000 -1000/farmer 9 24 0 Wizard 10 15 2/skippable/viewport 8 18 true/move farmer 0 -3 0/move farmer -1 0 0/pause 2000/speak Wizard \"Ah, @. I foresaw your coming, today. Please, join me.\"/pause 800/move Wizard -2 0 3/faceDirection Wizard 2/pause 300/move farmer 0 -2 0/pause 1500/speak Wizard \"$q -1 null#How goes your quest with the Juminos, hm?#$r -1 20 event_quest1#It's going great!#$r -1 -20 event_quest2#Huh?#$r -1 0 event_quest3#Uh... it's... going.\"/pause 500/move Wizard 0 2 2/pause 500/speak Wizard \"Here, I have something for you: a lesson in the pervasive energies of the world. Come closer.\"/pause 500/move farmer 0 -1 0/pause 500/faceDirection Wizard 1/speak Wizard \"Do you see this symbol, here?\"/pause 200/faceDirection farmer 1/speak Wizard \"This is a gate. A portal to another world: a doorway through which an elemental can traverse, or a window through which I can peer.\"/pause 500/speak Wizard \"$q 66 null#Have you ever encountered an elemental#$r 66 0 event_elemental1#Yes!#$r 66 -10 event_elemental2#You mean those blue squishy things in the mine?#$r 66 0 event_elemental3#I don't think so...\"/pause 500/speak Wizard \"Elementals are a sort of spirit, composed of the most pure building blocks of our universe.#$b#They are rarely seen by the common human; they show themselves only to the truly special. Some, like myself, are fortunate enough to seek and find them, eventually forming a bond of sorts.\"/pause 500/faceDirection Wizard 2/pause 100/faceDirection farmer 0/pause 500/speak Wizard \"Those spirits that you have encountered in the town are not elementals - they are something more derivative and simplistic, though still intriguing. Nevertheless, I believe it is safe to say they have taken an interest in your fate. And whenever a spirit takes interest, so must we all.\"/pause 500/emote farmer 8/pause 1000/speak Wizard \"Perhaps someday you will attract greater attention. Until then, serve the world, @. #$b# Be at peace. \"/pause 800/end warpOut",
+                "282815630/f Wizard 2000/t 600 2300": "WizardSong/7 17/farmer 9 24 0 Wizard 3 19 2/skippable/pause 1000/speak Wizard \"Seven ounces swamp moss... One crow feather... Solar essence...\"/pause 200/pause 200/speak Wizard \"Ast soth suh!$1\"/pause 500/speak Wizard \"!!!$1\"/pause 500/speak Wizard \"And still it fails to take!$1\"/pause 300/emote Wizard 12/move farmer 0 -5 3/move farmer -4 0 3/pause 200/faceDirection Wizard 1/speak Wizard \"Ah! $1#$b# Oh, @. #$b# I did not hear you enter. You have caught me in the midst of some rather delicate work.\"/pause 500/question fork1 \"#What are you working on?#I guess I should leave you to it, then...\"/fork leaveWizard/pause 300/speak Wizard \"I find myself in need of a way to produce artificial energies for my own use.\"/pause 800/speak Wizard \"I... ah... have not been sleeping, lately. I hoped to remedy that with this ritual, but I have only achieved frustration, as you might note.\"/pause 500/emote Wizard 12/speak Wizard \"$q 668 null#Tell me, @, what do you do when you cannot sleep?#$r 66 -20 event_sleep1#I never have that problem. A hard day's work tires me out.#$r 66 0 event_sleep2#Count sheep?#$r 66 20 event_sleep3#I take my sleeping bag and lie under the stars, instead. It helps to remember where I am and where I came from.\"/pause 500/speak Wizard \"So I am doomed to toil until I succeed or fall into my own cauldron.\"/speed Wizard 3/move Wizard 0 -1 1/speed Wizard 3/move Wizard 5 0 1/faceDirection farmer 1/pause 300/emote Wizard 40/pause 1000/speed Wizard 3/move Wizard 0 -3 1/speed Wizard 3/move Wizard 3 0 1/pause 800/emote Wizard 12/pause 1000/faceDirection Wizard 2/pause 500/emote Wizard 40/pause 1000/question fork1 \"#Stop him#Leave him alone\"/fork leaveWizard/pause 1000/move farmer 0 -4 1/move farmer 5 0 1/faceDirection Wizard 3/emote Wizard 8/pause 1000/emote Wizard 40/pause 1500/speak Wizard \"...?#$b# You wish for me to attempt to rest?$1#$b# I assure you, I have tried.\"/pause 1000/speak Wizard \"...\"/pause 800/speak Wizard \"Oh, very well. If I must. But know that I'll only be back at this as soon as you walk away.\"/pause 300/emote farmer 32/pause 1000/globalFade/viewport 3 5/warp Wizard 4 5/showFrame Wizard 51/positionOffset Wizard -10 0 0/warp farmer 2 5/faceDirection farmer 1/ambientLight 0 0 0/pause 1000/speak Wizard \"@...\"/pause 500/emote farmer 8/pause 500/speak Wizard \"Don't let me dream...\"/pause 3000/emote Wizard 24/pause 1000/emote farmer 40/pause 1500/message \"...He fell asleep.\"/pause 1500/emote Wizard 24/pause 1500/message \"Hopefully he stays that way\"/pause 500/message \"I'll stay awhile, just to be sure.\"/pause 1000/globalFade/viewport -1000 -1000/mail wizardNap/friendship Wizard 250/end warpOut",
+                    "leaveWizard": "pause 1000/message \"...Maybe it's best to leave him alone.\"/pause 500/emote Wizard 12/pause 400/speak Wizard \"CURSES!$1\"/pause 300/emote farmer 40/pause 1500/end dialogue Wizard \"I'll be fine. Leave me to my work.\"",
+            }
+        },
+
+        {
+            "Action": "EditData",
+			"Target": "Data/Events/Woods",
+            "Entries": {
+                "282815628/f Wizard 2500/t 800 1700/n teachMagic": "none/-1000 -1000/Wizard 7 8 2 farmer 22 13 3/pause 500/skippable/viewport 9 9 true/pause 2000/move farmer -6 0 0/move farmer 0 -2 3/move farmer -7 0 0/move farmer 0 -3 3/faceDirection Wizard 1/pause 500/speak Wizard \"Ah, @!$1#$b# You came. $1#$b# Good. #$b# Yes, very good.\"/pause 500/emote Wizard 40/pause 300/emote farmer 8/pause 500/speak Wizard \"As you know, I have devoted much of my life to divination and communication with ill-understood lifeforms. #$b# As such I have lost much of what comes naturally in human conversation. It is difficult for me to... #$b# Ah... #$b# How is it said...?\"/pause 1000/speed Wizard 2/move Wizard 1 0 1/pause 1000/speak Wizard \"@. #$b# Listen. #$b# Open your mind. Open your senses. #$b# Can you hear it?$1\"/pause 500/emote farmer 8/pause 500/speak Wizard \"My heart pounds in my chest more fiercely than I have ever known it to! $1#$b# The energies of the earth surge around us. $1#$b# It can be no accident. #$b# No, I have made no mistake. #$b# Even the trees can sense how I feel for you! $1\"/pause 400/emote farmer 16/pause 1000/speak Wizard \"I thought such a thing beyond the realm of possibility, after my... first love.  #$b# Oh, do not be afraid.  Our feelings withered long ago. #$b# We were young... foolish. But I am not the fool I was, @. #$b# Or... perhaps I still am, but with you... I have hope. $1\"/pause 1500/question fork1 \"#I feel the same.#Uh... sorry... I think you have made a mistake.\"/fork rejectWizard/pause 1500/speak Wizard \"Truly?! $1#$b# Ahem. #$b# That is... of course you do. #$b# I knew as much immediately. #$b# Never was there a doubt in my mind. #$b# Not once did I worry you might... #$b# Ah. #$b# Well. #$b# Never mind.\"/pause 1000/emote farmer 32/pause 2000/speak Wizard \"That is as far as my conversational skills will carry us, I fear. But, if should you like to stay awhile, I might teach you to listen to the earth...\"/pause 1000/emote farmer 56/pause 500/speak Wizard \"I did mean what I wrote, you know... about untold secrets.\"/pause 500/globalFade/viewport -1000 -1000/end",
+                "noMagic": "pause 1000/emote Wizard 40/pause 500/speak Wizard \"Ah... I see. I suppose I understand. I, too, am very busy.#$b#Perhaps another time.\"/pause 1000/frienship Wizard -100/end warpOut",
+                "rejectWizard": "pause 1500/faceDirection Wizard 2/pause 1500/speak Wizard \"...I see. No need to apologize. This was...\"/pause 1500/speak Wizard \"...Never mind.\"/pause 2000/speak Wizard \"I... suppose I will see you later, @.\"/pause 2000/globalFade/viewport -1000 -1000/warp Wizard -10 -10/pause 1000/viewport 9 9 true/pause 1000/end warpOut"
+            }
+		},
+		
+
+
+
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+              "Hearts:Wizard": "2, 3"
+              },
+            "Entries": {
+               "Wizard": "Have a care not to miss any.#$b#The smell of rotting eggs attracts basilisks.#$e#Am I joking? Hm... I wonder, @...#$e#Fear not. If they attack, I will protect everyone here.#$b#No smile is so precious it should be trapped in stone forever.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+              "Hearts:Wizard": "4, 5"
+              },
+            "Entries": {
+               "Wizard": "This ritual of egg-hunting... do you enjoy it?#$b#Eggs are wonderful, certainly, but... I would prefer to seek out pies.#$e#You don't agree?#$b#Well. You haven't tried my pies, @.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+              "Hearts:Wizard": "6, 7, 8, 9, 10"
+              },
+            "Entries": {
+               "Wizard": "Eggs, in spring... a potent symbol of rebirth. Symbols are important. And ritual can unite a community.#$b#But, pies...#$e#Why are there no festivals about pies...?#$e#I'm hungry, yes...",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+              "Relationship:Wizard": "Dating"
+              },
+            "Entries": {
+               "Wizard": "@.#$b#The eggs may symbolize rebirth, but... why are they hidden, do you think?#$b#The hero's journey? Seeking out one's own purpose?#$e#Whatever its meaning, I simply enjoy watching you seek them out...",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "When": {
+              "Relationship:Wizard": "Married"
+              },
+            "Entries": {
+               "Wizard": "Yes, I did say I was not going to attend.#$b#...#$b#And yet, here we are.#$e#I can't stop myself!$1#$b#Why do they hunt eggs?!$1#$e#I won't be able to sleep tonight unless I find the answer.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+              "Hearts:Wizard": "2, 3"
+              },
+            "Entries": {
+               "Wizard": "You are here too, @? Will you be dancing? I've never had the knack, myself.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+              "Hearts:Wizard": "4, 5"
+              },
+            "Entries": {
+               "Wizard": "Each year I watch from afar, and I still do not understand these customs.#$b#But I enjoy the smiles this festival shows me.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+              "Hearts:Wizard": "6, 7, 8, 9, 10"
+              },
+            "Entries": {
+               "Wizard": "They do look very happy.#$b#...Maybe next year I will join in.#$b#You seem to know the steps well. Would you... #$b#Ah, no, never mind. I am not meant to be a part of such things.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+              "Relationship:Wizard": "Dating"
+              },
+            "Entries": {
+               "Wizard": "Ah. So you've found me.#$b#And here I thought I was being covert.#$e#Dance...?$1#$b#Ah...#$b#I... do not think that would be wise.#$b#I don't know the steps.#$e#I apologize if I've disappointed you...#$b#If you choose to dance, however... I would love to watch you.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "When": {
+              "Relationship:Wizard": "Married"
+              },
+            "Entries": {
+               "Wizard": "You found me, my love.#$b#...you look enchanting today. Trust me, I'm an enchanter myself.#$e#I wish I could dance with you.#$b#But I can't go down there.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": {
+              "Hearts:Wizard": "2, 3"
+              },
+            "Entries": {
+               "Wizard": "Have you encountered the merpeople here?#$b#They are watching us, even now. #$e#I suspect they are curious about you.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": {
+              "Hearts:Wizard": "4, 5"
+              },
+            "Entries": {
+               "Wizard": "If you wish to do the merpeople a service, you'll stay after and make sure those townfolk take away all the garbage they have brought along.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": {
+              "Hearts:Wizard": "6, 7, 8, 9, 10"
+              },
+            "Entries": {
+               "Wizard": "I wouldn't try that soup, if I were you.#$b#You haven't been standing here watching what they've put in.#$e#Aren't there rules for this sort of thing?$1",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": {
+              "Relationship:Wizard": "Dating"
+              },
+            "Entries": {
+               "Wizard": "@. Thank you for coming to talk to me.#$b#The merfolk are good company, but I still prefer yours.#$e#How would you like to learn their language?#$b#I can teach you.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "When": {
+              "Relationship:Wizard": "Married"
+              },
+            "Entries": {
+               "Wizard": "The common folk are always telling tales of the beauty of merfolk.#$b#I have never found them so.#$b#Interesting, certainly, but not beautiful.#$e#Perhaps because you show me true beauty every day.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "When": {
+              "Hearts:Wizard": "2, 3"
+              },
+            "Entries": {
+               "Wizard": "I can feel the building energy in the night.#$b#Very soon, now.#$e#Mind that you pay close attention.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "When": {
+              "Hearts:Wizard": "4, 5"
+              },
+            "Entries": {
+               "Wizard": "You have a keen mind, @.#$b#If you focus, I'm certain you will be able to sense the arcane energies that the Lunaloos project.#$e#Sharpen your mind. Enjoy the night, @.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "When": {
+              "Hearts:Wizard": "6, 7, 8, 9, 10"
+              },
+            "Entries": {
+               "Wizard": "You'll miss the Lunaloos if you spend all your time lurking in the shadows.#$e#What do you mean, what about me?",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "When": {
+              "Relationship:Wizard": "Dating"
+              },
+            "Entries": {
+               "Wizard": "I can sense them well enough from over here, thank you.#$b#There are too many people on the docks.#$e#I wouldn't say no to your company, however.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "When": {
+              "Relationship:Wizard": "Married"
+              },
+            "Entries": {
+               "Wizard": "My heart.#$b#Sit with me. Clear your mind and feel the energies flow around you.#$e#Can you sense them?",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "When": {
+              "Hearts:Wizard": "2, 3"
+              },
+            "Entries": {
+               "Wizard": "You would do well to listen to Welwick's divination.#$b#Her senses are sharply attuned to the future.#$e#Incidentally, I would avoid that clown, were I you.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "When": {
+              "Hearts:Wizard": "4, 5"
+              },
+            "Entries": {
+               "Wizard": "That clown is back.#$b#Every time I see him it sparks something uncomfortable in me, yet I still can't place him.#$e#Somehow I feel as if he is taunting me.#$b#But he hasn't looked this direction even once.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "When": {
+              "Hearts:Wizard": "6, 7, 8, 9, 10"
+              },
+            "Entries": {
+               "Wizard": "That's it!!$1#$b#It was the School of Illusion!$1#$b#Without a doubt, that is Ixeor the Mad!$1#$b#He dropped out before completing the program. I daresay we all thought he had gone properly mad.#$b#Maybe he has.#$e#Better that you give him a wide berth, @.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "When": {
+              "Relationship:Wizard": "Dating"
+              },
+            "Entries": {
+               "Wizard": "Have I introduced you to Welwick, @?#$b#There are certainly cons in this field, but I assure you, she is not one of them.#$b#Her grasp of the unknown is admirable.#$e#Hmm? You aren't jealous are you?#$b#She's only a friend.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "When": {
+              "Relationship:Wizard": "Married"
+              },
+            "Entries": {
+               "Wizard": "@, you remember my friend Welwick, I'm certain.#$b#We must invite her over for dinner, once this is through.#$e#...ah... you wouldn't mind cooking, would you?#$b#You know how reliable I am in the kitchen...#$b#Okay, yes, also, your plum pudding is... could you make it tonight? Just for me?",
+            }
+         },
+        
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "When": {
+              "Hearts:Wizard": "6, 7, 8, 9, 10"
+              },
+            "Entries": {
+               "Wizard": "It never ceases to amaze me how tied up in this maze some people become.#$e#Why can they not see through the temptations and horrors?",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "When": {
+              "Relationship:Wizard": "Dating"
+              },
+            "Entries": {
+               "Wizard": "This maze may be a worthwhile place for you to hone your skills, my heart.#$b#If you focus, you should be able to commune with at least one of these elementals.#$e#Try.#$b#Reach out and...",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "When": {
+              "Relationship:Wizard": "Married"
+              },
+            "Entries": {
+               "Wizard": "Did you see the elementals, @?#$b#They certainly saw you.#$e#You are often inquired about, and never do I have a coherent explanation.#$b#Now perhaps some of them will understand what you are.#$b#Perfection.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "When": {
+              "Hearts:Wizard": "2, 3"
+              },
+            "Entries": {
+               "Wizard": "It's cold. Wouldn't this be an ideal season for a pie festival?",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "When": {
+              "Hearts:Wizard": "4, 5"
+              },
+            "Entries": {
+               "Wizard": "Are you warm enough, in just that?#$b#Stop by my tower afterwards if you need a warm drink.#$e#My cauldron is always boiling, @.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "When": {
+              "Hearts:Wizard": "6, 7, 8, 9, 10"
+              },
+            "Entries": {
+               "Wizard": "I prefer to watch from afar.#$e#It's probably best for all of us, that way.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "When": {
+              "Relationship:Wizard": "Dating"
+              },
+            "Entries": {
+               "Wizard": "Are you enjoying yourself?#$e#I'll remain up here, if it's all the same to you.#$b#You remember what happened last time I tried to talk to a normal person.",
+            }
+         },
+
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "When": {
+              "Relationship:Wizard": "Married"
+              },
+            "Entries": {
+               "Wizard": "I can't say I understand the purpose of all this, but it only matters than you enjoy yourself.#$e#Are you?",
+            }
+         },
+
+	]
+}
