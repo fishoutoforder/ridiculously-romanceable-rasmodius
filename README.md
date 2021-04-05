@@ -1,6 +1,6 @@
 # ridiculously-romanceable-rasmodius
 <h1>What is this mod about?</h1>
-<p>This is a self-indulgent fork of the <a href="https://www.nexusmods.com/stardewvalley/mods/3073">Romanceable Rasmodius mod</a> that re-writes the dialogue for the wizard in Stardew Valley, so that he is tailored to my exact husbando preferences.  I want to be clear - this is not because the writing for the original mod was poor. This is simply because I am a woman of particular and specific tastes, with the ability to make those tastes a reality via modding ;) As this is my first mod, it was much easier to get started with an existing, functional dialogue-altering mod, to then build on. I am very grateful to the mod creators for explicitly allowing their mod to be used in this way.</p>
+<p>This is a self-indulgent fork of the <a href="https://www.nexusmods.com/stardewvalley/mods/3073">Romanceable Rasmodius mod</a> that re-writes the dialogue for the wizard in Stardew Valley, so that he is tailored to my exact preferences.  I want to be clear - this is not because the writing for the original mod was poor. This is simply because I am a woman of particular and specific tastes, with the ability to make those tastes a reality via modding ;) As this is my first mod, it was much easier to get started with an existing, functional dialogue-altering mod, to then build on. I am very grateful to the mod creators for explicitly allowing their mod to be used in this way.</p>
 <p><b>Credits for the three mods that led to this one:</b></p>
   <ul>
     <li><a href="https://www.nexusmods.com/stardewvalley/mods/1309">haywrites</a> (original extended dialogue mod),</li>
@@ -31,6 +31,7 @@
 <ul>
   <li><b>SVE-compatible, 1.5 compatible version</b> I will take my writing across to a 1.5-compatible, SVE compatible version, usable on PC.</li>
   <li><b>Non-SVE, 1.5 compatible version</b> I will take my writing across to a 1.5 compatible version of the mod, tailored to work in games that do not use SVE (I will do my best to avoid incompatibility with other popular map mods, such as East Scarpe).</li>
+  <li>Once I've learned more about modding Stardew Valley from tinkering with this mod, I may well actually just throw out everything but my dialogue, and rebuild the mod entirely from scratch to better suit the way I prefer to code things. (Such a breaking dialogue across multiple files that will be included based on settings players choose in the config, etc.) At that point I'd no longer consider this a fork of the Romanceable Rasmodius mod, as I won't be using any of the dialogue or code at that point. We'll see if I get competent enough to reach that point!</li>
 </ul>
 <h2 name="long-term">Long term additions I would like to make</h2>
 <ul>
