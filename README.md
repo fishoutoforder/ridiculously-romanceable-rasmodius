@@ -8,7 +8,8 @@
     <li><a href="https://www.nexusmods.com/stardewvalley/mods/7000?tab=description">PaintedParrot</a> (SVE version of romance mod)</li>
   </ul>
 <h1>What makes this mod different to the original(s)?</h1>
-<p>Almost all the dialogue will be completely re-written from the original mod. Long term, I'd like to add more events and other content too (see "<a href="#long-term">Long term additions</a>").</p>
+<p>Almost all the dialogue is completely re-written from the original mod. Long term, I'd like to add more events and other content too (see "<a href="#long-term">Long term additions</a>").</p>
+<h2>Narrative alternations in detail</h2>
 <ul>
     <li>The wizard is now much more (platonically) interested in you right from the start. He talks with the forest about you regularly.</li>
     <li>As someone who rarely interacts with 'normal' people, he makes even more social faux pas.</li>
