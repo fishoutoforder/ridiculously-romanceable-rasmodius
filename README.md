@@ -38,7 +38,7 @@
   <li>More events (SVE and non-SVE compatible).</li>
   <li>More custom reactions to gifts, that vary by heart level (like the <a href="https://www.moddrop.com/stardew-valley/mods/487802-immersive-characters-shane">Immersive Shane mod)</a></li>
   <li>More unique dialogue triggers based on the exact day, heart level, and recent events.</li>
-  <li>Option to have the wizard use gender-neutral pronouns for the farmer.</li>
+  <li>Option to have the wizard use he/she or they pronouns for the farmer (at the moment he uses neutral only).</li>
   <li>Option to have special dialogue that implies the wizard literally WAS a Discworld wizard, which would be set to 'false' by default. If enabled, it will include references to the Discworld universe, with the implication being that the wizard was transported into the universe of Stardew Valley due to an L-Space mixup, and decided he liked it here better.</li>
   <li>Option to include alternate backstory for Abigail's purple hair, set to false by default. Essentially, that Caroline and Pierre wound up going to the wizard regarding fertility issues, and he did some Wacky Magic involving precious stones to help with conception. I know, it's a silly idea, but that's why it will be set to 'false' by default.</li>
 </ul>
