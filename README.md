@@ -1,6 +1,6 @@
 # ridiculously-romanceable-rasmodius
 <h1>What is this mod about?</h1>
-<p>This is a self-indulgent fork of the <a href="https://www.nexusmods.com/stardewvalley/mods/3073">Romanceable Rasmodius mod</a> that re-writes the dialogue for the wizard in Stardew Valley, so that he is tailored to my exact preferences.  I want to be clear - this is not because the writing for the original mod was poor. This is simply because I am a woman of particular and specific tastes, with the ability to make those tastes a reality via modding ;) As this is my first mod, it was much easier to get started with an existing, functional dialogue-altering mod, to then build on. I am very grateful to the mod creators for explicitly allowing their mod to be used in this way.</p>
+<p>This is a self-indulgent fork of the <a href="https://www.nexusmods.com/stardewvalley/mods/3073">Romanceable Rasmodius mod</a> that re-writes the dialogue for the wizard in Stardew Valley.  This is not because the writing for the original mod was poor, I want to be clear! This is because I want a Discworld-inspired wizard mashup. As this is my first mod, it was much easier to get started with an existing, functional dialogue-altering mod, to then build on. I am very grateful to the mod creators for explicitly allowing their mod to be used in this way.</p>
 <p><b>Credits for the three mods that led to this one:</b></p>
   <ul>
     <li><a href="https://www.nexusmods.com/stardewvalley/mods/1309">haywrites</a> (original extended dialogue mod),</li>
@@ -11,11 +11,11 @@
 <p>Almost all the dialogue is completely re-written from the original mod. Long term, I'd like to add more events and other content too (see "<a href="#long-term">Long term additions</a>").</p>
 <h2>Narrative alternations in detail</h2>
 <ul>
-    <li>The wizard is now much more (platonically) interested in you right from the start. He talks with the forest about you regularly.</li>
+    <li>The wizard is now much more (platonically) interested in the player's potential link with forest magic right from the start. Love2Lore.</li>
     <li>As someone who rarely interacts with 'normal' people, he makes even more social faux pas.</li>
     <li>We learn more about how he became a wizard in later stages of the friendship.</li>
     <li>He talks more about the townspeople (still very much from an 'outsider' point of view) and is less judgemental of them than he appears in early heart levels in the original mod.</li>
-    <li> He discusses his views on forest magic in more detail.</li>
+    <li> Did I mention LORE.</li>
     <li>His neurodivergent traits are more recognisable (I like to see my own brain stuff represented in games).</li>
     <li>He draws a little on my love for Discworld wizards, in that he's a little goofier, flying by the seat of his pants more than he appears to in vanilla, and very fond of good food.</li>
     <li>He's still the witch's ex-husband, and this relationship is discussed, though I take a slightly different approach to the finer details of what happened, compared to the original mod. The witch is always painted in a good light. They really were both just too young and too caught up in th thrill of being powerful mages to realise their deeper incompatibilities.</li>
